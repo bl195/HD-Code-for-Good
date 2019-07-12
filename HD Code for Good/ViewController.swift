@@ -1,10 +1,4 @@
-//
-//  ViewController.swift
-//  HD Code for Good
-//
-//  Created by Brian Li on 5/29/19.
-//  Copyright © 2019 Brian Li. All rights reserved.
-//
+
 
 import UIKit
 
@@ -14,7 +8,19 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
 
-
+    @IBAction func healthcheck(_ sender: UIButton) {
+        if sender.isSelected{
+            sender.isSelected = false
+        }
+        else{
+            sender.isSelected = true
+        }
+    }
+    
 }
 
