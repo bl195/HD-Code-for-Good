@@ -882,7 +882,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lfo-2G-eXx">
-                                <rect key="frame" x="20" y="138" width="374" height="216"/>
+                                <rect key="frame" x="20" y="138" width="374" height="618"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.9410352099" green="0.9410352099" blue="0.9410352099" alpha="0.71822733270000005" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -924,59 +924,88 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please select any skills that you have" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kNl-7n-j9G">
-                                <rect key="frame" x="59" y="350" width="296" height="21"/>
+                                <rect key="frame" x="59" y="370" width="296" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xdN-xY-fKc">
+                                <rect key="frame" x="87" y="408" width="240" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Mobile Development ">
+                                    <color key="titleColor" red="0.0039215686269999999" green="0.12941176469999999" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Mobiledevcheck:" destination="t9Q-3c-tpg" eventType="touchUpInside" id="Ny1-Ah-TZr"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nCp-X5-sDO">
-                                <rect key="frame" x="62" y="435" width="281" height="30"/>
+                                <rect key="frame" x="62" y="455" width="281" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Web Development">
                                     <color key="titleColor" red="0.0039215686269999999" green="0.12941176469999999" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="webdevcheck:" destination="t9Q-3c-tpg" eventType="touchUpInside" id="1Cx-OL-98L"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q7R-fo-1iE">
-                                <rect key="frame" x="62" y="481" width="281" height="30"/>
+                                <rect key="frame" x="62" y="501" width="281" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Product Pitching">
                                     <color key="titleColor" red="0.0039215686269999999" green="0.12941176469999999" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="Productpitchcheck:" destination="t9Q-3c-tpg" eventType="touchUpInside" id="Y8p-Sc-EDg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KjF-qb-1DO">
-                                <rect key="frame" x="62" y="529" width="281" height="30"/>
+                                <rect key="frame" x="62" y="549" width="281" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Front-End Development">
                                     <color key="titleColor" red="0.0039215686269999999" green="0.12941176469999999" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="frontendcheck:" destination="t9Q-3c-tpg" eventType="touchUpInside" id="AVK-cf-3eM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RTV-rS-cLT">
-                                <rect key="frame" x="62" y="577" width="281" height="30"/>
+                                <rect key="frame" x="62" y="597" width="281" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Back-End Development">
                                     <color key="titleColor" red="0.0039215686269999999" green="0.12941176469999999" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="Backendcheck:" destination="t9Q-3c-tpg" eventType="touchUpInside" id="Fla-7g-XmJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ycx-lh-vrO">
-                                <rect key="frame" x="62" y="624" width="281" height="30"/>
+                                <rect key="frame" x="62" y="644" width="281" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Idea Brainstorming">
                                     <color key="titleColor" red="0.0039215686269999999" green="0.12941176469999999" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="Ideabrainstormcheck:" destination="t9Q-3c-tpg" eventType="touchUpInside" id="rja-sb-sFc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n1V-dr-Mbd">
-                                <rect key="frame" x="62" y="671" width="281" height="30"/>
+                                <rect key="frame" x="62" y="691" width="281" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Other Skill">
                                     <color key="titleColor" red="0.0039215686269999999" green="0.12941176469999999" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="Otherskillcheck:" destination="t9Q-3c-tpg" eventType="touchUpInside" id="40Q-eU-4I1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pBC-Yz-feB">
                                 <rect key="frame" x="132" y="779" width="157" height="57"/>
@@ -1008,6 +1037,9 @@
                                 <state key="normal" title="Inequality">
                                     <color key="titleColor" red="0.0039215686269999999" green="0.12941176469999999" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="ineqcheck:" destination="t9Q-3c-tpg" eventType="touchUpInside" id="1Ba-np-6Gf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V1i-kY-R9a">
                                 <rect key="frame" x="95" y="288" width="87" height="40"/>
@@ -1016,6 +1048,9 @@
                                 <state key="normal" title="Education">
                                     <color key="titleColor" red="0.0039215686269999999" green="0.12941176469999999" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="educheck:" destination="t9Q-3c-tpg" eventType="touchUpInside" id="bj1-dK-4WT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8eq-0S-Z29">
                                 <rect key="frame" x="226" y="288" width="87" height="40"/>
@@ -1024,14 +1059,9 @@
                                 <state key="normal" title="Energy">
                                     <color key="titleColor" red="0.0039215686269999999" green="0.12941176469999999" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xdN-xY-fKc">
-                                <rect key="frame" x="87" y="388" width="240" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Mobile Development ">
-                                    <color key="titleColor" red="0.0039215686269999999" green="0.12941176469999999" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
+                                <connections>
+                                    <action selector="energycheck:" destination="t9Q-3c-tpg" eventType="touchUpInside" id="2bB-io-dUd"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
