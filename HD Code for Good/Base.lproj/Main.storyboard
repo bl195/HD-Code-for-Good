@@ -250,7 +250,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="80" id="n3T-7T-Fsz">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="80" id="n3T-7T-Fsz" customClass="MessageCell" customModule="HD_Code_for_Good" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="80"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="n3T-7T-Fsz" id="aUh-C4-uXb">
@@ -280,6 +280,11 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="Locationlabel" destination="Fs9-Cv-pL5" id="F7B-iB-gDh"/>
+                                    <outlet property="summarylabel" destination="j3i-oI-dEH" id="UZR-R5-awr"/>
+                                    <outlet property="timelabel" destination="QIQ-w7-Ebk" id="CKC-uZ-sg3"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

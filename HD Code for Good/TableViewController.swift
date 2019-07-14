@@ -8,8 +8,23 @@
 
 import UIKit
 
+class Message{
+    
+    let summary: String
+    let location: String
+    let time: String
+    
+    init(for loc: String, _ summ: String){
+        self.summary = summ
+        self.location = loc
+        
+    }
+
+}
 class TableViewController: UITableViewController {
 
+    let datas: [Message] = [Message(from: "Opening Ceremony", "Bryan Center"), Message(from: "Lunch", "Fitzpatrick")]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
