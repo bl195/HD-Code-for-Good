@@ -15,6 +15,8 @@
 		C79953DC229F14E20032FACE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C79953DA229F14E20032FACE /* LaunchScreen.storyboard */; };
 		C79953E7229F14E20032FACE /* HD_Code_for_GoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79953E6229F14E20032FACE /* HD_Code_for_GoodTests.swift */; };
 		C79953F2229F14E20032FACE /* HD_Code_for_GoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79953F1229F14E20032FACE /* HD_Code_for_GoodUITests.swift */; };
+		C7FF16AD22DBB98D00697335 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FF16AC22DBB98D00697335 /* TableViewController.swift */; };
+		C7FF16AF22DBBF0800697335 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FF16AE22DBBF0800697335 /* MessageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		C79953ED229F14E20032FACE /* HD Code for GoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HD Code for GoodUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C79953F1229F14E20032FACE /* HD_Code_for_GoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HD_Code_for_GoodUITests.swift; sourceTree = "<group>"; };
 		C79953F3229F14E20032FACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7FF16AC22DBB98D00697335 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		C7FF16AE22DBBF0800697335 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				C79953D1229F14E10032FACE /* AppDelegate.swift */,
+				C7FF16AC22DBB98D00697335 /* TableViewController.swift */,
+				C7FF16AE22DBBF0800697335 /* MessageCell.swift */,
 				C79953D3229F14E10032FACE /* ViewController.swift */,
 				C74FD8E222D5730000E378C7 /* MapScreen.swift */,
 				C79953D5229F14E10032FACE /* Main.storyboard */,
@@ -260,8 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C74FD8E322D5730000E378C7 /* MapScreen.swift in Sources */,
+				C7FF16AF22DBBF0800697335 /* MessageCell.swift in Sources */,
 				C79953D4229F14E10032FACE /* ViewController.swift in Sources */,
 				C79953D2229F14E10032FACE /* AppDelegate.swift in Sources */,
+				C7FF16AD22DBB98D00697335 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
