@@ -9,6 +9,16 @@
 import UIKit
 
 class MessageCell: UITableViewCell {
+    
+    let summary: String
+    let location: String
+    let time: String
+    
+    init(for loc: String, _ summ: String){
+        self.summary = summ
+        self.location = loc
+        
+    }
 
     override func awakeFromNib() {
         super.awakeFromNib()
