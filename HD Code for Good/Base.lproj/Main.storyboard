@@ -1331,6 +1331,9 @@
                                 <state key="normal" title="Back to Menu">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="Dn7-ai-sMd"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SUCCESS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PXW-lp-ui8">
                                 <rect key="frame" x="135" y="178" width="144" height="39"/>
@@ -1354,6 +1357,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="rqs-cX-vj9"/>
-        <segue reference="FF9-OJ-yoN"/>
+        <segue reference="Dn7-ai-sMd"/>
     </inferredMetricsTieBreakers>
 </document>
