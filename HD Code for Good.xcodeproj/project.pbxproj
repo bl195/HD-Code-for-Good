@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C74B88DD22DD797500B8995D /* CheckinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74B88DC22DD797500B8995D /* CheckinViewController.swift */; };
+		C74B88DF22DD7CEA00B8995D /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74B88DE22DD7CEA00B8995D /* MenuViewController.swift */; };
+		C74B88E322DE4BCC00B8995D /* SatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74B88E222DE4BCC00B8995D /* SatTableViewController.swift */; };
 		C74FD8E322D5730000E378C7 /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74FD8E222D5730000E378C7 /* MapScreen.swift */; };
 		C79953D2229F14E10032FACE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79953D1229F14E10032FACE /* AppDelegate.swift */; };
 		C79953D4229F14E10032FACE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79953D3229F14E10032FACE /* ViewController.swift */; };
@@ -39,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		C74B88DC22DD797500B8995D /* CheckinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinViewController.swift; sourceTree = "<group>"; };
+		C74B88DE22DD7CEA00B8995D /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		C74B88E222DE4BCC00B8995D /* SatTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatTableViewController.swift; sourceTree = "<group>"; };
 		C74FD8E222D5730000E378C7 /* MapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
 		C79953CE229F14E10032FACE /* HD Code for Good.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HD Code for Good.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C79953D1229F14E10032FACE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,8 +90,27 @@
 			isa = PBXGroup;
 			children = (
 				C74B88DC22DD797500B8995D /* CheckinViewController.swift */,
+				C74B88DE22DD7CEA00B8995D /* MenuViewController.swift */,
 			);
 			path = "Check-In";
+			sourceTree = "<group>";
+		};
+		C74B88E022DE4ABD00B8995D /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				C7FF16AE22DBBF0800697335 /* MessageCell.swift */,
+				C7FF16AC22DBB98D00697335 /* TableViewController.swift */,
+				C74B88E222DE4BCC00B8995D /* SatTableViewController.swift */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		C74B88E122DE4AF300B8995D /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				C74FD8E222D5730000E378C7 /* MapScreen.swift */,
+			);
+			path = Map;
 			sourceTree = "<group>";
 		};
 		C79953C5229F14E10032FACE = {
@@ -113,13 +136,12 @@
 		C79953D0229F14E10032FACE /* HD Code for Good */ = {
 			isa = PBXGroup;
 			children = (
-				C79953D1229F14E10032FACE /* AppDelegate.swift */,
-				C7FF16AC22DBB98D00697335 /* TableViewController.swift */,
-				C7FF16AE22DBBF0800697335 /* MessageCell.swift */,
-				C79953D3229F14E10032FACE /* ViewController.swift */,
-				C74FD8E222D5730000E378C7 /* MapScreen.swift */,
-				C79953D5229F14E10032FACE /* Main.storyboard */,
+				C74B88E022DE4ABD00B8995D /* Schedule */,
 				C74B88DB22DD794200B8995D /* Check-In */,
+				C74B88E122DE4AF300B8995D /* Map */,
+				C79953D1229F14E10032FACE /* AppDelegate.swift */,
+				C79953D3229F14E10032FACE /* ViewController.swift */,
+				C79953D5229F14E10032FACE /* Main.storyboard */,
 				C79953D8229F14E20032FACE /* Assets.xcassets */,
 				C79953DA229F14E20032FACE /* LaunchScreen.storyboard */,
 				C79953DD229F14E20032FACE /* Info.plist */,
@@ -279,8 +301,10 @@
 				C74FD8E322D5730000E378C7 /* MapScreen.swift in Sources */,
 				C7FF16AF22DBBF0800697335 /* MessageCell.swift in Sources */,
 				C79953D4229F14E10032FACE /* ViewController.swift in Sources */,
+				C74B88DF22DD7CEA00B8995D /* MenuViewController.swift in Sources */,
 				C79953D2229F14E10032FACE /* AppDelegate.swift in Sources */,
 				C74B88DD22DD797500B8995D /* CheckinViewController.swift in Sources */,
+				C74B88E322DE4BCC00B8995D /* SatTableViewController.swift in Sources */,
 				C7FF16AD22DBB98D00697335 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Menu View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HD_Code_for_Good" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MenuViewController" customModule="HD_Code_for_Good" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -128,7 +128,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="checkinbut" destination="PQ3-Jj-cC7" id="ayz-z6-8RU"/>
+                        <outlet property="dateLabel" destination="tuA-UX-W5o" id="ahO-45-Zym"/>
+                        <outlet property="menubut" destination="PQ3-Jj-cC7" id="Qeu-ud-bGe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -285,8 +286,8 @@
                                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </state>
                                         </button>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Day 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MOQ-Kc-2Fs">
-                                            <rect key="frame" x="20" y="37" width="46" height="50"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Day 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MOQ-Kc-2Fs">
+                                            <rect key="frame" x="18" y="37" width="54" height="50"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                             <nil key="textColor"/>
@@ -798,10 +799,10 @@
             </objects>
             <point key="canvasLocation" x="898.55072463768124" y="798.88392857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--Checkin View Controller-->
         <scene sceneID="iKF-vj-Neg">
             <objects>
-                <viewController id="org-Tu-7cC" sceneMemberID="viewController">
+                <viewController id="org-Tu-7cC" customClass="CheckinViewController" customModule="HD_Code_for_Good" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="D3t-4Z-fsc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -919,6 +920,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ohp-8x-Oif"/>
                     </view>
+                    <connections>
+                        <outlet property="subbut" destination="c4y-cO-njC" id="CNI-26-kXR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DBw-bZ-6hF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1386,6 +1390,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="xqX-yW-eoQ"/>
-        <segue reference="FF9-OJ-yoN"/>
+        <segue reference="3Ie-fN-hz9"/>
     </inferredMetricsTieBreakers>
 </document>

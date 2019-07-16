@@ -3,13 +3,11 @@ import UIKit
 class ViewController: UIViewController {
 
     
-    @IBOutlet weak var checkinbut: UIButton!
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        checkinbut.layer.cornerRadius = 20.0
         
     }
     

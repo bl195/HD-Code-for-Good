@@ -10,9 +10,10 @@ import UIKit
 
 class CheckinViewController: UIViewController {
 
+    @IBOutlet weak var subbut: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        subbut.layer.cornerRadius = 20.0
         // Do any additional setup after loading the view.
     }
     
