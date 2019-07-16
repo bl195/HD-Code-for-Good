@@ -13,7 +13,7 @@ class Message{
 
 class TableViewController: UITableViewController {
 
-    let datas: [Message] = [Message(for: "Bryan Center", "Opening Ceremony"), Message(for: "Fitzpatrick Lobby", "Lunch")]
+    let datas: [Message] = [Message(for: "Bryan Center", "Opening Ceremony"), Message(for: "Twinnie's", "Team Formation"), Message(for: "Fitzpatrick Lobby", "Lunch"), Message(for: "Fitzpatrick Lobby", "Dinner"), Message(for: "Hudson Hall", "Spicy Ramen Challenge")]
     
     override func viewDidLoad() {
         super.viewDidLoad()

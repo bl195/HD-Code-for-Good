@@ -1,18 +1,23 @@
-
-
 import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var checkinbut: UIButton!
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        checkinbut.layer.cornerRadius = 20.0
+        
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
 
+    
     @IBAction func healthcheck(_ sender: UIButton) {
         if sender.isSelected{
             sender.isSelected = false
