@@ -2,7 +2,7 @@ import UIKit
 
 class SatTableViewController: UITableViewController {
     
-    let datas: [Message] = [Message(for: "Bryan Center", "Opening Ceremony"), Message(for: "Twinnie's", "Team Formation"), Message(for: "Fitzpatrick Lobby", "Lunch"), Message(for: "Fitzpatrick Lobby", "Dinner"), Message(for: "Hudson Hall", "Spicy Ramen Challenge")]
+    let datas: [Message] = [Message(for: "Schiciano Atrium", "Check-In"), Message(for: "Reynolds Theatre", "Opening Ceremony"), Message(for: "Schiciano Atrium", "Lunch"), Message(for: "Schiciano Lobby", "Team Formation Mixer"), Message(for: "Harrington Quad", "Frisbee, Football, Volleyball"), Message(for:"Hudson 201","Intro to Hardware"), Message(for:"Hudson 232","VR Workshop"), Message(for:"Hudson 222","Health Track Kickoff"), Message(for:"Hudson 216","Javascript Workshop"), Message(for:"Harrington Quad","Puppies!!!!!"), Message(for:"Hudson 115A","API Workshop"), Message(for:"Hudson 216","Mobile Workshop"), Message(for:"Schiciano Atrium","Dinner"), Message(for:"Schiciano Lobby","MLH werewolf"), Message(for:"Innovation Co-Lab","Mixer for Female-Identifying"), Message(for:"Twinnie's Floor 2","Nerf War"), Message(for:"Schiciano Atrium","Spicy Noodle Challenge")]
     
     override func viewDidLoad() {
         super.viewDidLoad()

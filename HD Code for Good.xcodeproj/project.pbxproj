@@ -90,7 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				C74B88DC22DD797500B8995D /* CheckinViewController.swift */,
-				C74B88DE22DD7CEA00B8995D /* MenuViewController.swift */,
 			);
 			path = "Check-In";
 			sourceTree = "<group>";
@@ -139,9 +138,10 @@
 				C74B88E022DE4ABD00B8995D /* Schedule */,
 				C74B88DB22DD794200B8995D /* Check-In */,
 				C74B88E122DE4AF300B8995D /* Map */,
-				C79953D1229F14E10032FACE /* AppDelegate.swift */,
-				C79953D3229F14E10032FACE /* ViewController.swift */,
+				C7F19D0822DEA9F000548B29 /* Teams */,
+				C7F19D0922DEAA0D00548B29 /* Menu */,
 				C79953D5229F14E10032FACE /* Main.storyboard */,
+				C79953D1229F14E10032FACE /* AppDelegate.swift */,
 				C79953D8229F14E20032FACE /* Assets.xcassets */,
 				C79953DA229F14E20032FACE /* LaunchScreen.storyboard */,
 				C79953DD229F14E20032FACE /* Info.plist */,
@@ -165,6 +165,22 @@
 				C79953F3229F14E20032FACE /* Info.plist */,
 			);
 			path = "HD Code for GoodUITests";
+			sourceTree = "<group>";
+		};
+		C7F19D0822DEA9F000548B29 /* Teams */ = {
+			isa = PBXGroup;
+			children = (
+				C79953D3229F14E10032FACE /* ViewController.swift */,
+			);
+			path = Teams;
+			sourceTree = "<group>";
+		};
+		C7F19D0922DEAA0D00548B29 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				C74B88DE22DD7CEA00B8995D /* MenuViewController.swift */,
+			);
+			path = Menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
