@@ -36,6 +36,7 @@ class TableViewController: UITableViewController {
         cell.Locationlabel.text = datas[indexPath.row].location
         
         return cell
+        
     }
 
 }
