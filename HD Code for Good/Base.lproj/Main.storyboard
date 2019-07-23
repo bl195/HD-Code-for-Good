@@ -37,7 +37,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="9z7-V0-YtP" kind="presentation" id="2Jp-vP-xR9"/>
+                                    <segue destination="9z7-V0-YtP" kind="presentation" id="YU0-Zi-vEY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oR2-rg-73l">
@@ -125,7 +125,7 @@
         <!--Day 1-->
         <scene sceneID="235-Z9-U7L">
             <objects>
-                <tableViewController id="kpc-On-Cpn" customClass="TableViewController" customModule="HD_Code_for_Good" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="kpc-On-Cpn" customClass="SatTableViewController" customModule="HD_Code_for_Good" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="a9n-RH-Lbp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -187,9 +187,9 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OoC-I8-164" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-952" y="1677"/>
+            <point key="canvasLocation" x="445" y="1592"/>
         </scene>
-        <!--Day 2-->
+        <!--Table View Controller-->
         <scene sceneID="dQg-wm-FPk">
             <objects>
                 <tableViewController id="8v9-BZ-zlL" customClass="TableViewController" customModule="HD_Code_for_Good" customModuleProvider="target" sceneMemberID="viewController">
@@ -277,29 +277,29 @@
                             <outlet property="delegate" destination="8v9-BZ-zlL" id="Nkh-eS-DMh"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Day 2" id="NyW-zm-16C"/>
+                    <navigationItem key="navigationItem" id="xPa-Qq-lm3"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Om2-Kd-Hle" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-110" y="1677"/>
+            <point key="canvasLocation" x="-299" y="1592"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="XdP-77-SxX">
             <objects>
                 <tabBarController id="9z7-V0-YtP" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="IrF-8n-mB7"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vqs-jn-EBW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="kpc-On-Cpn" kind="relationship" relationship="viewControllers" id="pxk-Lc-3PC"/>
-                        <segue destination="8v9-BZ-zlL" kind="relationship" relationship="viewControllers" id="j53-hV-V9y"/>
+                        <segue destination="DHo-Cx-0aa" kind="relationship" relationship="viewControllers" id="OfF-zk-8W1"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="prv-CF-nSs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-507" y="867"/>
+            <point key="canvasLocation" x="-593" y="867"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="4Ag-JB-pVN">
@@ -794,6 +794,26 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yal-si-u6d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1825" y="112"/>
+        </scene>
+        <!--Day 2-->
+        <scene sceneID="g1T-md-4iN">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="DHo-Cx-0aa" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Day 2" id="NyW-zm-16C"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="w6c-Jq-SEH">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="8v9-BZ-zlL" kind="relationship" relationship="rootViewController" id="lFG-sd-U9S"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9jO-eI-4Ft" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1209" y="1592"/>
         </scene>
     </scenes>
     <resources>
