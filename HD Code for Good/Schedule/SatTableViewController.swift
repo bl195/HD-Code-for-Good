@@ -6,6 +6,25 @@ class SatTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let button = UIButton(type: .custom)
+        //set image for button
+        button.setImage(UIImage(named: "back"), for: .normal)
+        
+        button.addTarget(self, action: #selector(tapped), for: .touchUpInside)
+        //set frame
+        button.frame = CGRect(x: 0, y: 0, width: 53, height: 51)
+        
+        let barButton = UIBarButtonItem(customView: button)
+        
+        self.navigationItem.leftBarButtonItem = barButton
+        
+    }
+    
+    @objc func tapped(){
+        print("tapped")
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "MenuViewController") as? MenuViewController
+        self.navigationController?.pushViewController(vc!, animated: true)
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
