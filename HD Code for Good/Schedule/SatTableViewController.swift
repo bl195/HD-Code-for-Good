@@ -6,7 +6,7 @@ class SatTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+         self.title = "Saturday, Day 1"
         let button = UIButton(type: .custom)
         //set image for button
         button.setImage(UIImage(named: "back"), for: .normal)
@@ -24,7 +24,7 @@ class SatTableViewController: UITableViewController {
     @objc func tapped(){
         print("tapped")
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "MenuViewController") as? MenuViewController
-        self.navigationController?.pushViewController(vc!, animated: true)
+        self.navigationController?.popToViewController(vc!, animated: true)
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {

@@ -17,7 +17,7 @@ class TableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.title = "Sunday, Day 2"
         let button = UIButton(type: .custom)
         //set image for button
         button.setImage(UIImage(named: "back"), for: .normal)
