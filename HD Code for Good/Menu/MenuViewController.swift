@@ -38,7 +38,7 @@ class MenuViewController: UIViewController {
         let hours = countdown.hour!
         let minutes = countdown.minute!
         let seconds = countdown.second!
-        dateLabel.text = String(format: "%02d:%02d:%02d:%02d", days, hours, minutes, seconds)
+        dateLabel.text = String(format: "%02d Days %02d Hours %02d Min %02d Sec", days, hours, minutes, seconds)
     }
     
 
