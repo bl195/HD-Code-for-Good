@@ -22,10 +22,10 @@
                                 <rect key="frame" x="36" y="139" width="338" height="308"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vrl-5o-aoN">
-                                <rect key="frame" x="0.0" y="791" width="414" height="105"/>
+                                <rect key="frame" x="0.0" y="772" width="414" height="124"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="105" id="iI0-L9-29g"/>
+                                    <constraint firstAttribute="height" constant="124" id="iI0-L9-29g"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>

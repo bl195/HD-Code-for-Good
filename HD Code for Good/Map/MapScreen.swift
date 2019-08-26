@@ -42,8 +42,11 @@ class MapScreen: UIViewController {
     }
     
     let annotationLocations = [
-        ["title": "Chapel", "latitude": 36.000481, "longitude": -78.937332],
-        ["title": "Bryan Center", "latitude": 36.003171, "longitude": -78.941788]
+        ["title": "Chapel Drive", "latitude": 36.000481, "longitude": -78.937332],
+        ["title": "Bryan Center", "latitude": 36.003171, "longitude": -78.941788],
+        ["title": "Fitzpatrick Center", "latitude": 36.003448, "longitude": -78.939482],
+        ["title": "Hudson Hall", "latitude": 36.004269, "longitude": -78.939537],
+        ["title": "Perkins Library", "latitude": 36.002266, "longitude": -78.938631]
     ]
     
     func createAnnotations(locations: [[String: Any]]) {
@@ -54,8 +57,8 @@ class MapScreen: UIViewController {
             mapView.addAnnotation(annotations)
     }
         var region: MKCoordinateRegion{
-            let span = MKCoordinateSpan(latitudeDelta: 0.015, longitudeDelta: 0.015)
-            let chapelCoordinate = CLLocationCoordinate2D(latitude: 36.000481, longitude: -78.937332)
+            let span = MKCoordinateSpan(latitudeDelta: 0.007, longitudeDelta: 0.006)
+            let chapelCoordinate = CLLocationCoordinate2D(latitude: 36.003448, longitude: -78.939482)
             return MKCoordinateRegion(center: chapelCoordinate, span: span)
         }
         mapView.setRegion(region, animated: true)
