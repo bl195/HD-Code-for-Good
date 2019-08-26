@@ -792,7 +792,6 @@
         <!--View Controller-->
         <scene sceneID="foO-2P-aUS">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Yal-si-u6d" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="EaH-pC-S37" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4Bx-cT-MOc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -840,6 +839,7 @@
                         <viewLayoutGuide key="safeArea" id="7Ye-q2-62A"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yal-si-u6d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2734.7826086956525" y="111.83035714285714"/>
         </scene>
@@ -984,6 +984,6 @@
         <image name="Screen Shot 2019-05-25 at 4.39.25 PM" width="338" height="251"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="YuR-cJ-K1t"/>
+        <segue reference="5Yj-pe-Zlf"/>
     </inferredMetricsTieBreakers>
 </document>
