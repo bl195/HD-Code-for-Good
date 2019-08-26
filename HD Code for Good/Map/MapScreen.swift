@@ -17,10 +17,7 @@ final class Annotation: NSObject, MKAnnotation{
         super.init()
     }
     
-    var region: MKCoordinateRegion{
-        let span = MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
-        return MKCoordinateRegion(center: coordinate, span: span)
-    }
+
     
 }
 
@@ -31,25 +28,51 @@ class MapScreen: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         mapView.register(MKMarkerAnnotationView.self, forAnnotationViewWithReuseIdentifier: MKMapViewDefaultAnnotationViewReuseIdentifier)
-        let chapelCoordinate = CLLocationCoordinate2D(latitude: 36.000481, longitude: -78.937332)
-        let chapelAnnotation = Annotation(coordinate: chapelCoordinate, title: "Chapel", subtitle: "Most Iconic Duke Structure")
-        mapView.addAnnotation(chapelAnnotation)
-        mapView.setRegion(chapelAnnotation.region, animated: true)
-//        checkLocationServices()
+        
+//        let chapelCoordinate = CLLocationCoordinate2D(latitude: 36.000481, longitude: -78.937332)//
+//        let bcCoordinate = CLLocationCoordinate2D(latitude: 36.003171, longitude: -78.941788)
+//        let bcAnnotation = Annotation(coordinate: bcCoordinate, title: "Bryan Center", subtitle: "")
+//        mapView.addAnnotation(chapelAnnotation)
+//        mapView.addAnnotation(bcAnnotation)
+//
+//        mapView.setRegion(bcAnnotation.region, animated: true)
+//        mapView.setCenter(chapelCoordinate, animated: true)
+////        checkLocationServices()
+        createAnnotations(locations: annotationLocations)
     }
+    
+    let annotationLocations = [
+        ["title": "Chapel", "latitude": 36.000481, "longitude": -78.937332],
+        ["title": "Bryan Center", "latitude": 36.003171, "longitude": -78.941788]
+    ]
+    
+    func createAnnotations(locations: [[String: Any]]) {
+        for location in locations{
+            let annotations = MKPointAnnotation()
+            annotations.title = location["title"] as? String
+            annotations.coordinate = CLLocationCoordinate2D(latitude: location["latitude"] as! CLLocationDegrees, longitude: location["longitude"] as! CLLocationDegrees)
+            mapView.addAnnotation(annotations)
+    }
+        var region: MKCoordinateRegion{
+            let span = MKCoordinateSpan(latitudeDelta: 0.015, longitudeDelta: 0.015)
+            let chapelCoordinate = CLLocationCoordinate2D(latitude: 36.000481, longitude: -78.937332)
+            return MKCoordinateRegion(center: chapelCoordinate, span: span)
+        }
+        mapView.setRegion(region, animated: true)
 }
 
-    extension ViewController: MKMapViewDelegate{
-        func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView?{
-            if let chapelAnnotateView = mapView.dequeueReusableAnnotationView(withIdentifier: MKMapViewDefaultAnnotationViewReuseIdentifier) as? MKMarkerAnnotationView {
-                chapelAnnotateView.animatesWhenAdded = true
-                chapelAnnotateView.titleVisibility = .adaptive
-                chapelAnnotateView.titleVisibility = .adaptive
-                
-                return chapelAnnotateView
-        }
-        return nil
-    }
+
+//    extension ViewController: MKMapViewDelegate{
+//        func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView?{
+//            if let chapelAnnotateView = mapView.dequeueReusableAnnotationView(withIdentifier: MKMapViewDefaultAnnotationViewReuseIdentifier) as? MKMarkerAnnotationView {
+//                chapelAnnotateView.animatesWhenAdded = true
+//                chapelAnnotateView.titleVisibility = .adaptive
+//                chapelAnnotateView.titleVisibility = .adaptive
+//
+//                return chapelAnnotateView
+//        }
+//        return nil
+//    }
 
 //func setupLocationManager() {
 //    locationManager.delegate = self
