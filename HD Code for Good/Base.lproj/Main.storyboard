@@ -62,8 +62,9 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PQ3-Jj-cC7">
                                 <rect key="frame" x="121" y="642" width="173" height="54"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.14305375311716292" green="0.14128570617499533" blue="0.77666957487309651" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="tintColor" red="0.1460799277" green="0.2502315229" blue="0.56163620400000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="CHECK-IN">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -756,6 +757,7 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2019-08-26 at 9.09.21 PM" translatesAutoresizingMaskIntoConstraints="NO" id="CkP-1e-nuZ">
                                 <rect key="frame" x="-41" y="-232" width="493" height="1359"/>
+                                <color key="backgroundColor" red="0.1214377321914465" green="0.13322610953240055" blue="0.73979535592893408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check-In" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vgd-Xh-r42">
                                 <rect key="frame" x="123" y="93" width="168" height="42"/>
@@ -819,8 +821,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c4y-cO-njC">
-                                <rect key="frame" x="136" y="585" width="142" height="65"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="frame" x="136" y="561" width="142" height="65"/>
+                                <color key="backgroundColor" red="0.12474092969290569" green="0.1428639734669207" blue="0.78325269670050757" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="65" id="OGN-Lm-J2i"/>
                                 </constraints>
@@ -832,6 +834,30 @@
                                     <segue destination="EaH-pC-S37" kind="presentation" id="D9O-Wx-gh8"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-down-arrow-50" translatesAutoresizingMaskIntoConstraints="NO" id="ZAW-xk-Bwf">
+                                <rect key="frame" x="89" y="766" width="55" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-down-arrow-50" translatesAutoresizingMaskIntoConstraints="NO" id="GIB-7m-HrY">
+                                <rect key="frame" x="123" y="698" width="49" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-down-arrow-50" translatesAutoresizingMaskIntoConstraints="NO" id="teT-uh-f2a">
+                                <rect key="frame" x="183" y="743" width="49" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-down-arrow-50" translatesAutoresizingMaskIntoConstraints="NO" id="Q1V-2f-PBf">
+                                <rect key="frame" x="203" y="721" width="49" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-down-arrow-50" translatesAutoresizingMaskIntoConstraints="NO" id="6Db-O6-DkF">
+                                <rect key="frame" x="220" y="763" width="44" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-down-arrow-50" translatesAutoresizingMaskIntoConstraints="NO" id="jSH-6E-Mgq">
+                                <rect key="frame" x="169" y="721" width="43" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -907,7 +933,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WD3-dr-wjo">
                                 <rect key="frame" x="113" y="392" width="188" height="64"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.15187219796152368" green="0.19581390436856641" blue="0.72054376079695426" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Back to Menu">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1073,8 +1099,9 @@
     <resources>
         <image name="Screen Shot 2019-08-26 at 9.09.21 PM" width="315" height="582"/>
         <image name="hackduke" width="454" height="725"/>
+        <image name="icons8-down-arrow-50" width="50" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ilf-Lv-GR4"/>
+        <segue reference="umS-NQ-av8"/>
     </inferredMetricsTieBreakers>
 </document>
