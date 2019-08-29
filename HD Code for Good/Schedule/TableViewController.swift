@@ -37,6 +37,21 @@ class TableViewController: UITableViewController {
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "MenuViewController") as? MenuViewController
         self.navigationController?.pushViewController(vc!, animated: true)
     }
+    override func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        let important = importantAction(at: indexPath)
+        return UISwipeActionsConfiguration(actions: [important])
+    }
+    
+    func importantAction(at indexPath: IndexPath) -> UIContextualAction{
+        let data = datas[indexPath.row]
+        let action = UIContextualAction(style: .normal, title: "Important"){ (action, view, completion) in
+            //            data.isImportant = !data.isImportant
+            completion(true)
+        }
+        action.image = UIImage(contentsOfFile: "icons8-alarm-50")
+        action.backgroundColor = .blue
+        return action
+    }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections

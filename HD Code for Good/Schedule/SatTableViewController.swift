@@ -19,6 +19,7 @@ class SatTableViewController: UITableViewController {
         
         self.navigationItem.leftBarButtonItem = barButton
         
+        
     }
     
     @objc func tapped(){
@@ -27,9 +28,26 @@ class SatTableViewController: UITableViewController {
         self.navigationController?.popToViewController(vc!, animated: true)
     }
     
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
+    }
+    
+    override func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        let important = importantAction(at: indexPath)
+        return UISwipeActionsConfiguration(actions: [important])
+    }
+    
+    func importantAction(at indexPath: IndexPath) -> UIContextualAction{
+        let data = datas[indexPath.row]
+        let action = UIContextualAction(style: .normal, title: "Important"){ (action, view, completion) in
+//            data.isImportant = !data.isImportant
+            completion(true)
+        }
+        action.image = UIImage(contentsOfFile: "icons8-alarm-50")
+        action.backgroundColor = .blue
+        return action
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -46,4 +64,5 @@ class SatTableViewController: UITableViewController {
         return cell
     }
 
+    
 }
