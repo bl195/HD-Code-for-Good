@@ -25,7 +25,7 @@ class SatTableViewController: UITableViewController {
     @objc func tapped(){
         print("tapped")
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "MenuViewController") as? MenuViewController
-        self.navigationController?.popToViewController(vc!, animated: true)
+        self.navigationController?.pushViewController(vc!, animated: true)
     }
     
     
