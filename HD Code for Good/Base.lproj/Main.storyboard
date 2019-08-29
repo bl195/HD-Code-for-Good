@@ -72,9 +72,9 @@
                                     <segue destination="org-Tu-7cC" kind="presentation" id="E95-CA-1W6"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00 Hours 00 Minutes 00 Seconds" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tuA-UX-W5o">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00 Hours 00 Minutes 00 Seconds" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tuA-UX-W5o">
                                 <rect key="frame" x="24" y="523" width="367" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -908,10 +908,10 @@
             </objects>
             <point key="canvasLocation" x="1881.1594202898552" y="112.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Checked In View Controller-->
         <scene sceneID="foO-2P-aUS">
             <objects>
-                <viewController id="EaH-pC-S37" sceneMemberID="viewController">
+                <viewController id="EaH-pC-S37" customClass="CheckedInViewController" customModule="HD_Code_for_Good" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4Bx-cT-MOc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -964,6 +964,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7Ye-q2-62A"/>
                     </view>
+                    <connections>
+                        <outlet property="backbut" destination="WD3-dr-wjo" id="fhn-LB-EUm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yal-si-u6d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1102,6 +1105,6 @@
         <image name="icons8-down-arrow-50" width="50" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="umS-NQ-av8"/>
+        <segue reference="QEd-23-UMz"/>
     </inferredMetricsTieBreakers>
 </document>

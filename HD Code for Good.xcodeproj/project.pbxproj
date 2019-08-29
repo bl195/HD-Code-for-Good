@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C72EB85123182F99000142A3 /* CheckedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72EB85023182F99000142A3 /* CheckedInViewController.swift */; };
 		C74B88DD22DD797500B8995D /* CheckinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74B88DC22DD797500B8995D /* CheckinViewController.swift */; };
 		C74B88DF22DD7CEA00B8995D /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74B88DE22DD7CEA00B8995D /* MenuViewController.swift */; };
 		C74B88E322DE4BCC00B8995D /* SatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74B88E222DE4BCC00B8995D /* SatTableViewController.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C72EB85023182F99000142A3 /* CheckedInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckedInViewController.swift; sourceTree = "<group>"; };
 		C74B88DC22DD797500B8995D /* CheckinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinViewController.swift; sourceTree = "<group>"; };
 		C74B88DE22DD7CEA00B8995D /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		C74B88E222DE4BCC00B8995D /* SatTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatTableViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				C74B88DC22DD797500B8995D /* CheckinViewController.swift */,
+				C72EB85023182F99000142A3 /* CheckedInViewController.swift */,
 			);
 			path = "Check-In";
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				C74B88DF22DD7CEA00B8995D /* MenuViewController.swift in Sources */,
 				C79953D2229F14E10032FACE /* AppDelegate.swift in Sources */,
 				C74B88DD22DD797500B8995D /* CheckinViewController.swift in Sources */,
+				C72EB85123182F99000142A3 /* CheckedInViewController.swift in Sources */,
 				C74B88E322DE4BCC00B8995D /* SatTableViewController.swift in Sources */,
 				C7FF16AD22DBB98D00697335 /* TableViewController.swift in Sources */,
 			);
