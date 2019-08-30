@@ -52,7 +52,7 @@ class TableViewController: UITableViewController {
             completion(true)
         }
         action.image = UIImage(contentsOfFile: "icons8-alarm-50")
-        action.backgroundColor = .blue
+        action.backgroundColor = .red
         return action
     }
     
@@ -71,6 +71,7 @@ class TableViewController: UITableViewController {
         
         cell.summarylabel.text = datas[indexPath.row].summary
         cell.Locationlabel.text = datas[indexPath.row].location
+        cell.timelabel.text = datas[indexPath.row].time
         
         return cell
         
