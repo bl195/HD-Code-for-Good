@@ -17,8 +17,8 @@ class MenuViewController: UIViewController {
     let futureDate: Date = {
         var future = DateComponents(
             year: 2019,
-            month: 10,
-            day: 13,
+            month: 11,
+            day: 2,
             hour: 0,
             minute: 0,
             second: 0
