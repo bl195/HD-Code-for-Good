@@ -41,7 +41,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oR2-rg-73l">
-                                <rect key="frame" x="183" y="808" width="49" height="36"/>
+                                <rect key="frame" x="190" y="808" width="49" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Maps">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -51,7 +51,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k7h-dU-6z5">
-                                <rect key="frame" x="327" y="808" width="41" height="36"/>
+                                <rect key="frame" x="322" y="808" width="41" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Help">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -72,7 +72,7 @@
                                     <segue destination="org-Tu-7cC" kind="presentation" id="E95-CA-1W6"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00 Hours 00 Minutes 00 Seconds" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tuA-UX-W5o">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading . . ." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tuA-UX-W5o">
                                 <rect key="frame" x="24" y="523" width="367" height="30"/>
                                 <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -89,10 +89,8 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="O2g-BT-did" secondAttribute="trailing" constant="295" id="866-P0-guc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vrl-5o-aoN" secondAttribute="trailing" id="CTr-I1-dud"/>
                             <constraint firstItem="vrl-5o-aoN" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="34" id="D7o-ka-4Zd"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="k7h-dU-6z5" secondAttribute="trailing" constant="46" id="DuM-uE-3Wm"/>
-                            <constraint firstItem="k7h-dU-6z5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="327" id="EVe-tj-D31"/>
-                            <constraint firstItem="oR2-rg-73l" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="183" id="Gup-qC-nUp"/>
                             <constraint firstItem="O2g-BT-did" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="37" id="HaB-Vs-xSI"/>
+                            <constraint firstItem="oR2-rg-73l" firstAttribute="leading" secondItem="vrl-5o-aoN" secondAttribute="trailing" constant="-224" id="Htc-gT-9wT"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="k7h-dU-6z5" secondAttribute="bottom" constant="18" id="Mg0-2F-bha"/>
                             <constraint firstItem="N2J-qs-VaR" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="235" id="NyR-PR-ywi"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="leading" secondItem="N2J-qs-VaR" secondAttribute="leading" constant="37" id="Ons-jL-m0g"/>
@@ -100,8 +98,8 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="oR2-rg-73l" secondAttribute="bottom" constant="18" id="TXH-ns-qD5"/>
                             <constraint firstItem="PQ3-Jj-cC7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="121" id="UT0-dc-vb9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="O2g-BT-did" secondAttribute="bottom" constant="18" id="adV-AX-nt1"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oR2-rg-73l" secondAttribute="trailing" constant="182" id="aoj-FK-Ye4"/>
                             <constraint firstItem="N2J-qs-VaR" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="36" id="emW-Ic-EQi"/>
+                            <constraint firstItem="k7h-dU-6z5" firstAttribute="leading" secondItem="vrl-5o-aoN" secondAttribute="trailing" constant="-92" id="g6a-cg-eNy"/>
                             <constraint firstItem="tuA-UX-W5o" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="479" id="huq-cy-991"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PQ3-Jj-cC7" secondAttribute="trailing" constant="120" id="mYS-L0-bF1"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="tuA-UX-W5o" secondAttribute="bottom" constant="309" id="nLK-p7-arZ"/>
@@ -1105,6 +1103,6 @@
         <image name="icons8-down-arrow-50" width="50" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="QEd-23-UMz"/>
+        <segue reference="umS-NQ-av8"/>
     </inferredMetricsTieBreakers>
 </document>
