@@ -4,16 +4,19 @@ class Message{
     
     let summary: String
     let location: String
+    let time: String
     
-    init(for loc: String, _ summ: String){
+    init(for loc: String, _ summ: String, _ tim: String){
         self.summary = summ
         self.location = loc
+        self.time = tim
     }
 }
 
 class TableViewController: UITableViewController {
 
-    let datas: [Message] = [Message(for:"Twinnie's","Midnight Snacks"), Message(for:"Hudson (222,224,232)","Nap Time"), Message(for:"Schiciano Atrium","Breakfast"), Message(for:"Hudson 216","The Future of Health"), Message(for:"Hudson 222","Turning Hack into Startup"), Message(for:"Schiciano Atrium","Lunch"), Message(for:"All Participants","Hacking Ends"), Message(for:"Schiciano Lobby","Judging & Demos"), Message(for:"All Participants","HackDuke Ends"), Message(for:"Reynolds Theatre","Closing Ceremony"), Message(for:"Science Drive","VTech Bus Leaves")]
+    let datas: [Message] = [Message(for:"Twinnie's","Midnight Snacks", "12:00 AM"), Message(for:"Hudson (222,224,232)","Nap Time", "12:00 AM"),
+                           Message(for:"Schiciano Atrium","Breakfast", "8:00 AM"), Message(for:"Hudson 216","The Future of Health", "10:00 AM"), Message(for:"Hudson 222","Turning Hack into Startup", "10:00 AM"), Message(for:"Schiciano Atrium","Lunch", "12:00 PM"), Message(for:"All Participants","Hacking Ends", "2:00 PM"), Message(for:"Schiciano Lobby","Judging & Demos", "3:00 PM"), Message(for:"All Participants","HackDuke Ends", "4:00 PM"), Message(for:"Reynolds Theatre","Closing Ceremony", "5:00 PM"), Message(for:"Science Drive","VTech Bus Leaves", "6:00 PM")]
     
     override func viewDidLoad() {
         super.viewDidLoad()
