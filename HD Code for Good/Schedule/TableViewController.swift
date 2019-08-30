@@ -37,9 +37,8 @@ class TableViewController: UITableViewController {
     
     @objc func tapped(){
         print("tapped")
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: "MenuViewController") as? MenuViewController
-        self.navigationController?.pushViewController(vc!, animated: true)
     }
+    
     override func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
         let important = importantAction(at: indexPath)
         return UISwipeActionsConfiguration(actions: [important])

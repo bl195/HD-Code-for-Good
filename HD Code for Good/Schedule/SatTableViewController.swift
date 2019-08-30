@@ -17,7 +17,8 @@ class SatTableViewController: UITableViewController {
              Message(for:"Hudson 216","Mobile Workshop", "5:00 PM"),
              Message(for:"Schiciano Atrium","Dinner", "6:00 PM"),
              Message(for:"Schiciano Lobby","MLH werewolf", "8:00 PM"),
-             Message(for:"Innovation Co-Lab","Mixer for Female-Identifying", "9:00 PM"), Message(for:"Twinnie's Floor 2","Nerf War", "10:00 PM"),
+             Message(for:"Innovation Co-Lab","Mixer for Female-Identifying", "9:00 PM"),
+             Message(for:"Twinnie's Floor 2","Nerf War", "10:00 PM"),
              Message(for:"Schiciano Atrium","Spicy Noodle Challenge", "11:00 PM")]
     
     override func viewDidLoad() {
