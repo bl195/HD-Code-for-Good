@@ -10,6 +10,7 @@
 		C72EB85123182F99000142A3 /* CheckedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72EB85023182F99000142A3 /* CheckedInViewController.swift */; };
 		C72EB8532318C5FF000142A3 /* MapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72EB8522318C5FF000142A3 /* MapCell.swift */; };
 		C72EB8552318C635000142A3 /* MapTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72EB8542318C635000142A3 /* MapTableView.swift */; };
+		C72EB857231CC2BB000142A3 /* hackduke (1).png in Resources */ = {isa = PBXBuildFile; fileRef = C72EB856231CC2BB000142A3 /* hackduke (1).png */; };
 		C74B88DD22DD797500B8995D /* CheckinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74B88DC22DD797500B8995D /* CheckinViewController.swift */; };
 		C74B88DF22DD7CEA00B8995D /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74B88DE22DD7CEA00B8995D /* MenuViewController.swift */; };
 		C74B88E322DE4BCC00B8995D /* SatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74B88E222DE4BCC00B8995D /* SatTableViewController.swift */; };
@@ -46,6 +47,7 @@
 		C72EB85023182F99000142A3 /* CheckedInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckedInViewController.swift; sourceTree = "<group>"; };
 		C72EB8522318C5FF000142A3 /* MapCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCell.swift; sourceTree = "<group>"; };
 		C72EB8542318C635000142A3 /* MapTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTableView.swift; sourceTree = "<group>"; };
+		C72EB856231CC2BB000142A3 /* hackduke (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "hackduke (1).png"; path = "../../../Downloads/hackduke (1).png"; sourceTree = "<group>"; };
 		C74B88DC22DD797500B8995D /* CheckinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinViewController.swift; sourceTree = "<group>"; };
 		C74B88DE22DD7CEA00B8995D /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		C74B88E222DE4BCC00B8995D /* SatTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatTableViewController.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				C79953D8229F14E20032FACE /* Assets.xcassets */,
 				C79953DA229F14E20032FACE /* LaunchScreen.storyboard */,
 				C79953DD229F14E20032FACE /* Info.plist */,
+				C72EB856231CC2BB000142A3 /* hackduke (1).png */,
 			);
 			path = "HD Code for Good";
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C79953DC229F14E20032FACE /* LaunchScreen.storyboard in Resources */,
+				C72EB857231CC2BB000142A3 /* hackduke (1).png in Resources */,
 				C79953D9229F14E20032FACE /* Assets.xcassets in Resources */,
 				C79953D7229F14E10032FACE /* Main.storyboard in Resources */,
 			);
@@ -509,6 +513,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DG5G3Q88RG;
 				INFOPLIST_FILE = "HD Code for Good/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -526,6 +531,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DG5G3Q88RG;
 				INFOPLIST_FILE = "HD Code for Good/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

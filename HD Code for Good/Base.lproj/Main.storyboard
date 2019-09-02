@@ -259,7 +259,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="prv-CF-nSs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-593" y="867"/>
+            <point key="canvasLocation" x="-539" y="867"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="4Ag-JB-pVN">
@@ -1110,7 +1110,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Od-3E-g5v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-991.304347826087" y="1743.75"/>
+            <point key="canvasLocation" x="-907" y="1744"/>
         </scene>
     </scenes>
     <resources>
@@ -1119,6 +1119,6 @@
         <image name="icons8-down-arrow-50" width="50" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="5Yj-pe-Zlf"/>
+        <segue reference="ilf-Lv-GR4"/>
     </inferredMetricsTieBreakers>
 </document>
