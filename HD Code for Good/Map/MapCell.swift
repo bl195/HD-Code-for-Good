@@ -10,10 +10,12 @@ import UIKit
 
 class MapCell: UITableViewCell {
 
+
     @IBOutlet weak var eventLabel: UILabel!
-    @IBOutlet weak var locationLabel: UILabel!
-    @IBOutlet weak var timeLabel: UILabel!
     
+    @IBOutlet weak var locationLabel: UILabel!
+    
+    @IBOutlet weak var timeLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
