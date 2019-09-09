@@ -61,5 +61,11 @@ class MapTableView: UITableView {
         return cell
         
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let text: String = datas[indexPath.row].location
+        
+    }
+
 
 }

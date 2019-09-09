@@ -45,7 +45,7 @@ class MapScreen: UIViewController {
     let annotationLocations = [
         ["title": "Chapel Drive", "latitude": 36.000481, "longitude": -78.937332],
         ["title": "Bryan Center", "latitude": 36.003171, "longitude": -78.941788],
-        ["title": "Fitzpatrick Center", "latitude": 36.003448, "longitude": -78.939482],
+        ["title": "Schiciano Atrium", "latitude": 36.003448, "longitude": -78.939482],
         ["title": "Hudson Hall", "latitude": 36.004269, "longitude": -78.939537],
         ["title": "Perkins Library", "latitude": 36.002266, "longitude": -78.938631]
     ]
@@ -111,7 +111,26 @@ let datas: [Message] =
         return cell
         
         }
-    }
+  
+        func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+            let text = datas[indexPath.row].location as String
+            for location in annotationLocations{
+                if (text == location["title"] as? String){
+                    
+                }
+            }
+        }
+
+
+}
+
+
+
+
+
+
+
+
 //    extension ViewController: MKMapViewDelegate{
 //        func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView?{
 //            if let chapelAnnotateView = mapView.dequeueReusableAnnotationView(withIdentifier: MKMapViewDefaultAnnotationViewReuseIdentifier) as? MKMarkerAnnotationView {

@@ -49,5 +49,4 @@ class MenuViewController: UIViewController {
         Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateTime), userInfo: nil, repeats: true)
     }
     
-    
 }
