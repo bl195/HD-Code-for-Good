@@ -434,34 +434,34 @@
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UIZ-TF-TVU">
                                                 <rect key="frame" x="33" y="486" width="348" height="83"/>
-                                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                <color key="backgroundColor" red="0.9227871192893401" green="0.9227871192893401" blue="0.9227871192893401" alpha="0.60000002379999995" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <string key="text">The grand prizes are donations under your name to charities and causes! There will be grand prize winners for each track, novice track and many other company sponsored API prizes as well.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hOR-PG-tOr">
                                                 <rect key="frame" x="33" y="597" width="348" height="85"/>
-                                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                <color key="backgroundColor" red="0.92566227791878175" green="0.92566227791878175" blue="0.92566227791878175" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <string key="text">HackDuke starts Saturday, Nov 2nd at 9:00 AM and ends on Sunday, Nov 14th at 5:30 PM. It is hosted on Duke University's West Campus, in and around the Fitzpatrick Engineering Building.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zwr-rI-iGW">
                                                 <rect key="frame" x="33" y="712" width="348" height="81"/>
-                                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                <color key="backgroundColor" red="0.92213277284263961" green="0.92213277284263961" blue="0.92213277284263961" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <string key="text">Anyone! Get to know your fellow programmers better from your own and other schools! The only request is that you make a new friend by talking to each other, our mentors and our experts!</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Bring your own ethernet cables (or you can just use WiFi) and bring any Nerf gun arsenal you have!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="igg-yH-zBY">
                                                 <rect key="frame" x="33" y="830" width="348" height="52"/>
-                                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                <color key="backgroundColor" red="0.91203997461928932" green="0.91203997461928932" blue="0.91203997461928932" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nKY-N8-agL">
                                                 <rect key="frame" x="33" y="918" width="348" height="63"/>
-                                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                <color key="backgroundColor" red="0.91556947969543145" green="0.91556947969543145" blue="0.91556947969543145" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <string key="text">We welcome all software and hardware hacks that align to our tracks for impact. We will also have lab space for hardware hackers.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1119,6 +1119,6 @@
         <image name="icons8-down-arrow-50" width="50" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="QEd-23-UMz"/>
+        <segue reference="YuR-cJ-K1t"/>
     </inferredMetricsTieBreakers>
 </document>
