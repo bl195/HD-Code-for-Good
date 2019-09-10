@@ -44,25 +44,27 @@ class MapScreen: UIViewController {
     
     let annotationLocations = [
         ["title": "Chapel Drive", "latitude": 36.000481, "longitude": -78.937332],
-        ["title": "Bryan Center", "latitude": 36.003171, "longitude": -78.941788],
+        ["title": "Reynolds Theatre", "latitude": 36.003171, "longitude": -78.941788],
         ["title": "Schiciano Atrium", "latitude": 36.003448, "longitude": -78.939482],
-        ["title": "Hudson Hall", "latitude": 36.004269, "longitude": -78.939537],
-        ["title": "Perkins Library", "latitude": 36.002266, "longitude": -78.938631]
+        ["title": "Hudson Hall", "latitude": 36.004169, "longitude": -78.940937],
+        ["title": "Perkins Library", "latitude": 36.002266, "longitude": -78.938631],
+        ["title": "Harrington Quad", "latitude": 36.004548, "longitude": -78.940220]
     ]
     
     func createAnnotations(locations: [[String: Any]]) {
-        for location in locations{
-            let annotations = MKPointAnnotation()
-            annotations.title = location["title"] as? String
-            annotations.coordinate = CLLocationCoordinate2D(latitude: location["latitude"] as! CLLocationDegrees, longitude: location["longitude"] as! CLLocationDegrees)
-            mapView.addAnnotation(annotations)
-    }
+//        for location in locations{
+//            let annotations = MKPointAnnotation()
+//            annotations.title = location["title"] as? String
+//            annotations.coordinate = CLLocationCoordinate2D(latitude: location["latitude"] as! CLLocationDegrees, longitude: location["longitude"] as! CLLocationDegrees)
+//            mapView.addAnnotation(annotations)
+//    }
         var region: MKCoordinateRegion{
-            let span = MKCoordinateSpan(latitudeDelta: 0.007, longitudeDelta: 0.006)
-            let chapelCoordinate = CLLocationCoordinate2D(latitude: 36.003448, longitude: -78.939482)
+            let span = MKCoordinateSpan(latitudeDelta: 0.005, longitudeDelta: 0.005)
+            let chapelCoordinate = CLLocationCoordinate2D(latitude: 36.003448, longitude: -78.940482)
             return MKCoordinateRegion(center: chapelCoordinate, span: span)
         }
         mapView.setRegion(region, animated: true)
+        
 }
 
    
@@ -78,15 +80,15 @@ let datas: [Message] =
     [Message(for: "Schiciano Atrium", "Check-In Begins", "8:00 AM"),
      Message(for: "Reynolds Theatre", "Opening Ceremonies", "10:00 AM"),
      Message(for: "Schiciano Atrium", "Lunch", "11:00 AM"),
-     Message(for: "Schiciano Lobby", "Team Formation Mixer", "11:00 AM"),
+     Message(for: "Schiciano Atrium", "Team Formation Mixer", "11:00 AM"),
      Message(for: "Harrington Quad", "Frisbee, Football, Volleyball", "12:00 PM"),
-     Message(for:"Hudson 201","Intro to Hardware", "1:00 PM"),
-     Message(for:"Hudson 232","VR Workshop", "2:00 PM"),
-     Message(for:"Hudson 222","Health Track Kickoff", "3:00 PM"),
-     Message(for:"Hudson 216","Javascript Workshop", "4:00 PM"),
+     Message(for:"Hudson Hall","Intro to Hardware", "1:00 PM"),
+     Message(for:"Hudson Hall","VR Workshop", "2:00 PM"),
+     Message(for:"Hudson Hall","Health Track Kickoff", "3:00 PM"),
+     Message(for:"Hudson Hall","Javascript Workshop", "4:00 PM"),
      Message(for:"Harrington Quad","Puppies!!!!!", "4:00 PM"),
-     Message(for:"Hudson 115A","API Workshop", "5:00 AM"),
-     Message(for:"Hudson 216","Mobile Workshop", "5:00 PM"),
+     Message(for:"Hudson Hall","API Workshop", "5:00 AM"),
+     Message(for:"Hudson Hall","Mobile Workshop", "5:00 PM"),
      Message(for:"Schiciano Atrium","Dinner", "6:00 PM"),
      Message(for:"Schiciano Lobby","MLH werewolf", "8:00 PM"),
      Message(for:"Innovation Co-Lab","Mixer for Female-Identifying", "9:00 PM"),
@@ -116,7 +118,11 @@ let datas: [Message] =
             let text = datas[indexPath.row].location as String
             for location in annotationLocations{
                 if (text == location["title"] as? String){
-                    
+                    print("yay")
+                    let annotations = MKPointAnnotation()
+                    annotations.title = location["title"] as? String
+                    annotations.coordinate = CLLocationCoordinate2D(latitude: location["latitude"] as! CLLocationDegrees, longitude: location["longitude"] as! CLLocationDegrees)
+                    mapView.addAnnotation(annotations)
                 }
             }
         }
