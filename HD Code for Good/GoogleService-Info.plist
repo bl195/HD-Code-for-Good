@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>814323364024-3hj88r8ik55331p40qn9uoepm400v1fv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.814323364024-3hj88r8ik55331p40qn9uoepm400v1fv</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBJereE7Hpr7lou16w5fbYrw0tOVR-ejzY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>814323364024</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>HackDuke.HD-Code-for-Good</string>
+	<key>PROJECT_ID</key>
+	<string>hd-code-for-good</string>
+	<key>STORAGE_BUCKET</key>
+	<string>hd-code-for-good.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:814323364024:ios:5acfd2e8675d3b3d93444d</string>
+	<key>DATABASE_URL</key>
+	<string>https://hd-code-for-good.firebaseio.com</string>
+</dict>
+</plist>
