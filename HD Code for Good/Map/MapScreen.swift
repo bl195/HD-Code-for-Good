@@ -48,7 +48,8 @@ class MapScreen: UIViewController {
         ["title": "Schiciano Atrium", "latitude": 36.003448, "longitude": -78.939482],
         ["title": "Hudson Hall", "latitude": 36.004169, "longitude": -78.940937],
         ["title": "Perkins Library", "latitude": 36.002266, "longitude": -78.938631],
-        ["title": "Harrington Quad", "latitude": 36.004548, "longitude": -78.940220]
+        ["title": "Harrington Quad", "latitude": 36.004548, "longitude": -78.940220],
+        ["title": "Innovation Co-Lab", "latitude": 36.003910, "longitude": -78.938278]
     ]
     
     func createAnnotations(locations: [[String: Any]]) {
