@@ -844,6 +844,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="addPost:" destination="org-Tu-7cC" eventType="touchUpInside" id="ZWR-fF-Noq"/>
                                     <segue destination="EaH-pC-S37" kind="presentation" id="D9O-Wx-gh8"/>
                                 </connections>
                             </button>
@@ -914,6 +915,12 @@
                         <viewLayoutGuide key="safeArea" id="ohp-8x-Oif"/>
                     </view>
                     <connections>
+                        <outlet property="category" destination="tit-ps-Cw0" id="gLm-bF-i8i"/>
+                        <outlet property="email" destination="8Jn-jc-zE7" id="1PW-Yz-MPt"/>
+                        <outlet property="firstname" destination="2VR-Fy-nEo" id="5CM-5Y-ddl"/>
+                        <outlet property="lastname" destination="1T7-NI-hrp" id="EGd-8g-Gbu"/>
+                        <outlet property="pronouns" destination="gRl-Hk-XjU" id="G8f-H3-m4y"/>
+                        <outlet property="school" destination="kJy-o2-tHA" id="hIb-Z9-65R"/>
                         <outlet property="subbut" destination="c4y-cO-njC" id="CNI-26-kXR"/>
                     </connections>
                 </viewController>
@@ -1119,6 +1126,6 @@
         <image name="icons8-down-arrow-50" width="50" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="YuR-cJ-K1t"/>
+        <segue reference="QEd-23-UMz"/>
     </inferredMetricsTieBreakers>
 </document>

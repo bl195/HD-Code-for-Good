@@ -7,14 +7,34 @@
 //
 
 import UIKit
+import FirebaseDatabase
 
 class CheckinViewController: UIViewController {
-
+    
+    var ref: DatabaseReference?
+    
+    @IBOutlet weak var firstname: UITextField!
+    @IBOutlet weak var lastname: UITextField!
+    @IBOutlet weak var pronouns: UITextField!
+    @IBOutlet weak var school: UITextField!
+    @IBOutlet weak var category: UITextField!
+    @IBOutlet weak var email: UITextField!
+    
+    
     @IBOutlet weak var subbut: UIButton!
+    
     override func viewDidLoad() {
+        
+        ref = Database.database().reference()
+        
         super.viewDidLoad()
         subbut.layer.cornerRadius = 20.0
         // Do any additional setup after loading the view.
+    }
+    
+    @IBAction func addPost(_ sender: Any) {
+        ref?.child("Posts").childByAutoId().setValue(firstname.text)
+        
     }
     
 
