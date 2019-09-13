@@ -922,6 +922,7 @@
                         <outlet property="pronouns" destination="gRl-Hk-XjU" id="G8f-H3-m4y"/>
                         <outlet property="school" destination="kJy-o2-tHA" id="hIb-Z9-65R"/>
                         <outlet property="subbut" destination="c4y-cO-njC" id="CNI-26-kXR"/>
+                        <outlet property="year" destination="ALR-jW-A7H" id="f7u-xF-DXw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DBw-bZ-6hF" userLabel="First Responder" sceneMemberID="firstResponder"/>

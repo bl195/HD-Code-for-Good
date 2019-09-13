@@ -11,12 +11,20 @@ import FirebaseDatabase
 
 class CheckinViewController: UIViewController {
     
-    var ref: DatabaseReference?
+    var firstref: DatabaseReference?
+    var lastref: DatabaseReference?
+    var pronounref: DatabaseReference?
+    var schoolref: DatabaseReference?
+    var classref: DatabaseReference?
+    var categoryref: DatabaseReference?
+    var emailref: DatabaseReference?
+    
     
     @IBOutlet weak var firstname: UITextField!
     @IBOutlet weak var lastname: UITextField!
     @IBOutlet weak var pronouns: UITextField!
     @IBOutlet weak var school: UITextField!
+    @IBOutlet weak var year: UITextField!
     @IBOutlet weak var category: UITextField!
     @IBOutlet weak var email: UITextField!
     
@@ -25,7 +33,13 @@ class CheckinViewController: UIViewController {
     
     override func viewDidLoad() {
         
-        ref = Database.database().reference()
+        firstref = Database.database().reference()
+        lastref = Database.database().reference()
+        pronounref = Database.database().reference()
+        schoolref = Database.database().reference()
+        classref = Database.database().reference()
+        categoryref = Database.database().reference()
+        emailref = Database.database().reference()
         
         super.viewDidLoad()
         subbut.layer.cornerRadius = 20.0
@@ -33,7 +47,12 @@ class CheckinViewController: UIViewController {
     }
     
     @IBAction func addPost(_ sender: Any) {
-        ref?.child("Posts").childByAutoId().setValue(firstname.text)
+        firstref?.child("First Name").childByAutoId().setValue(firstname.text)
+        lastref?.child("Last Name").childByAutoId().setValue(lastname.text)
+        pronounref?.child("Pronoun").childByAutoId().setValue(pronouns.text)
+        classref?.child("Class").childByAutoId().setValue(year.text)
+        categoryref?.child("Category").childByAutoId().setValue(category.text)
+        emailref?.child("Email").childByAutoId().setValue(email.text)
         
     }
     
