@@ -116,10 +116,13 @@ let datas: [Message] =
         }
   
         func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+            // Clear annotations to prevent multiple annotations from displaying?
+            let allAnnotations = self.mapView.annotations
+            self.mapView.removeAnnotations(allAnnotations)
+
             let text = datas[indexPath.row].location as String
             for location in annotationLocations{
                 if (text == location["title"] as? String){
-                    print("yay")
                     let annotations = MKPointAnnotation()
                     annotations.title = location["title"] as? String
                     annotations.coordinate = CLLocationCoordinate2D(latitude: location["latitude"] as! CLLocationDegrees, longitude: location["longitude"] as! CLLocationDegrees)

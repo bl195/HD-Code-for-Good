@@ -2,6 +2,142 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:HD Code for Good.xcodeproj">
+      location = "group:../../../../Downloads/hd_hourglass.png">
+   </FileRef>
+   <Group
+      location = "group:../../../../Downloads/fonts"
+      name = "fonts">
+      <Group
+         location = "group:Cabin"
+         name = "Cabin">
+         <FileRef
+            location = "group:Cabin-Medium.ttf">
+         </FileRef>
+         <FileRef
+            location = "group:Cabin-SemiBoldItalic.ttf">
+         </FileRef>
+         <FileRef
+            location = "group:Cabin-SemiBold.ttf">
+         </FileRef>
+         <FileRef
+            location = "group:Cabin-MediumItalic.ttf">
+         </FileRef>
+         <FileRef
+            location = "group:Cabin-BoldItalic.ttf">
+         </FileRef>
+         <FileRef
+            location = "group:Cabin-Regular.ttf">
+         </FileRef>
+         <FileRef
+            location = "group:OFL.txt">
+         </FileRef>
+         <FileRef
+            location = "group:Cabin-Bold.ttf">
+         </FileRef>
+         <FileRef
+            location = "group:Cabin-RegularItalic.ttf">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Montserrat"
+         name = "Montserrat">
+         <FileRef
+            location = "group:Montserrat-LightItalic.ttf">
+         </FileRef>
+         <FileRef
+            location = "group:Montserrat-Medium.ttf">
+         </FileRef>
+         <FileRef
+            location = "group:Montserrat-BoldItalic.ttf">
+         </FileRef>
+         <FileRef
+            location = "group:Montserrat-Light.ttf">
+         </FileRef>
+         <FileRef
+            location = "group:Montserrat-ThinItalic.ttf">
+         </FileRef>
+         <FileRef
+            location = "group:Montserrat-ExtraLight.ttf">
+         </FileRef>
+         <FileRef
+            location = "group:Montserrat-Thin.ttf">
+         </FileRef>
+         <FileRef
+            location = "group:Montserrat-Bold.ttf">
+         </FileRef>
+         <FileRef
+            location = "group:Montserrat-MediumItalic.ttf">
+         </FileRef>
+         <FileRef
+            location = "group:Montserrat-BlackItalic.ttf">
+         </FileRef>
+         <FileRef
+            location = "group:Montserrat-RegularItalic.ttf">
+         </FileRef>
+         <FileRef
+            location = "group:Montserrat-SemiBold.ttf">
+         </FileRef>
+         <FileRef
+            location = "group:Montserrat-ExtraLightItalic.ttf">
+         </FileRef>
+         <FileRef
+            location = "group:Montserrat-ExtraBold.ttf">
+         </FileRef>
+         <FileRef
+            location = "group:OFL.txt">
+         </FileRef>
+         <FileRef
+            location = "group:Montserrat-Black.ttf">
+         </FileRef>
+         <FileRef
+            location = "group:Montserrat-Regular.ttf">
+         </FileRef>
+         <FileRef
+            location = "group:Montserrat-SemiBoldItalic.ttf">
+         </FileRef>
+         <FileRef
+            location = "group:Montserrat-ExtraBoldItalic.ttf">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Open_Sans"
+         name = "Open_Sans">
+         <FileRef
+            location = "group:OpenSans-SemiBold.ttf">
+         </FileRef>
+         <FileRef
+            location = "group:OpenSans-Light.ttf">
+         </FileRef>
+         <FileRef
+            location = "group:OpenSans-ExtraBold.ttf">
+         </FileRef>
+         <FileRef
+            location = "group:OpenSans-LightItalic.ttf">
+         </FileRef>
+         <FileRef
+            location = "group:OpenSans-Bold.ttf">
+         </FileRef>
+         <FileRef
+            location = "group:OpenSans-SemiBoldItalic.ttf">
+         </FileRef>
+         <FileRef
+            location = "group:OpenSans-RegularItalic.ttf">
+         </FileRef>
+         <FileRef
+            location = "group:OpenSans-ExtraBoldItalic.ttf">
+         </FileRef>
+         <FileRef
+            location = "group:LICENSE.txt">
+         </FileRef>
+         <FileRef
+            location = "group:OpenSans-Regular.ttf">
+         </FileRef>
+         <FileRef
+            location = "group:OpenSans-BoldItalic.ttf">
+         </FileRef>
+      </Group>
+   </Group>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
