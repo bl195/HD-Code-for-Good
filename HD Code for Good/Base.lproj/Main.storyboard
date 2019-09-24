@@ -173,6 +173,9 @@
                                     <rect key="frame" x="22" y="2" width="34" height="30"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <state key="normal" title="Back"/>
+                                    <connections>
+                                        <segue destination="BYZ-38-t0r" kind="show" id="cRH-4v-IDn"/>
+                                    </connections>
                                 </button>
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -276,7 +279,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Om2-Kd-Hle" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-171.01449275362319" y="1743.75"/>
+            <point key="canvasLocation" x="-171" y="1561"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="XdP-77-SxX">
@@ -1021,9 +1024,12 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CiJ-oF-n1I">
-                                    <rect key="frame" x="20" y="7" width="46" height="30"/>
+                                    <rect key="frame" x="26" y="7" width="34" height="30"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <state key="normal" title="Button"/>
+                                    <state key="normal" title="Back"/>
+                                    <connections>
+                                        <segue destination="BYZ-38-t0r" kind="show" id="DpT-zd-AxQ"/>
+                                    </connections>
                                 </button>
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1130,7 +1136,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Od-3E-g5v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-907" y="1744"/>
+            <point key="canvasLocation" x="-849" y="1561"/>
         </scene>
     </scenes>
     <resources>
@@ -1139,6 +1145,6 @@
         <image name="hd_hourglass.png" width="330" height="755"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Drk-QQ-ay3"/>
+        <segue reference="DpT-zd-AxQ"/>
     </inferredMetricsTieBreakers>
 </document>
