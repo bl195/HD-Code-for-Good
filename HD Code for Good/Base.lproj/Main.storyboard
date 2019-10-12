@@ -695,9 +695,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Map" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5wC-di-8Uz">
-                                <rect key="frame" x="167" y="93" width="54" height="30"/>
+                                <rect key="frame" x="167" y="93" width="68" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="24"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1170,6 +1170,6 @@
         <image name="hd_hourglass.png" width="330" height="755"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="QEd-23-UMz"/>
+        <segue reference="5Yj-pe-Zlf"/>
     </inferredMetricsTieBreakers>
 </document>
