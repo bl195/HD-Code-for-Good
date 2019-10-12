@@ -172,7 +172,9 @@
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8f-oH-yv1">
                                     <rect key="frame" x="22" y="2" width="34" height="30"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <state key="normal" title="Back"/>
+                                    <state key="normal" title="Back">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
                                     <connections>
                                         <segue destination="BYZ-38-t0r" kind="presentation" modalTransitionStyle="crossDissolve" id="cRH-4v-IDn"/>
                                     </connections>
@@ -207,6 +209,11 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="153.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
+                                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lfY-do-QvH">
+                                            <rect key="frame" x="9" y="7" width="396" height="139"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" red="1" green="0.85340623844650942" blue="0.73693317911767187" alpha="0.5974957191780822" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </view>
                                         <label userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9cc-AS-dqp">
                                             <rect key="frame" x="9" y="11" width="0.0" height="132"/>
                                             <color key="backgroundColor" red="0.96028983160000003" green="0.81209304530000004" blue="0.69849476099999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -242,7 +249,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <color key="backgroundColor" red="0.96028983160000003" green="0.81209304530000004" blue="0.69849476099999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
                                         <constraint firstItem="Fs9-Cv-pL5" firstAttribute="leading" secondItem="aUh-C4-uXb" secondAttribute="leading" constant="60" id="Akv-aU-nwW"/>
                                         <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="j3i-oI-dEH" secondAttribute="trailing" constant="20" symbolic="YES" id="L0Z-fW-vXS"/>
@@ -279,7 +286,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Om2-Kd-Hle" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-171" y="1561"/>
+            <point key="canvasLocation" x="-171.01449275362319" y="1560.9375"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="XdP-77-SxX">
@@ -314,13 +321,15 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eXn-hE-yNh" userLabel="contentview">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2019-08-26 at 9.09.21 PM" translatesAutoresizingMaskIntoConstraints="NO" id="2fe-4Z-JdG">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2fe-4Z-JdG">
                                                 <rect key="frame" x="-58" y="-121" width="553" height="1262"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QUj-7O-7tr">
                                                 <rect key="frame" x="35" y="32" width="40" height="36"/>
                                                 <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="18"/>
-                                                <state key="normal" title="Back"/>
+                                                <state key="normal" title="Back">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                                 <connections>
                                                     <segue destination="BYZ-38-t0r" kind="presentation" modalTransitionStyle="crossDissolve" id="YuR-cJ-K1t"/>
                                                 </connections>
@@ -702,7 +711,9 @@
                                 <rect key="frame" x="34" y="61" width="40" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="18"/>
-                                <state key="normal" title="Back"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalTransitionStyle="crossDissolve" id="5Yj-pe-Zlf"/>
                                 </connections>
@@ -1026,7 +1037,9 @@
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CiJ-oF-n1I">
                                     <rect key="frame" x="26" y="7" width="34" height="30"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <state key="normal" title="Back"/>
+                                    <state key="normal" title="Back">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
                                     <connections>
                                         <segue destination="BYZ-38-t0r" kind="presentation" modalTransitionStyle="crossDissolve" id="DpT-zd-AxQ"/>
                                     </connections>
@@ -1062,6 +1075,11 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="153.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
+                                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nLI-pj-LjB">
+                                            <rect key="frame" x="9" y="7" width="396" height="139"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" red="1" green="0.85340623839999996" blue="0.7369331791" alpha="0.60407748287671237" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </view>
                                         <label userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dR0-Mv-xnG">
                                             <rect key="frame" x="9" y="11" width="0.0" height="132"/>
                                             <color key="backgroundColor" red="0.96028983160621761" green="0.81209304529184967" blue="0.69849476096705054" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1098,7 +1116,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <color key="backgroundColor" red="0.96028983160000003" green="0.81209304530000004" blue="0.69849476099999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
                                         <constraint firstAttribute="bottom" secondItem="hgW-cM-0HD" secondAttribute="bottom" constant="18.5" id="1ua-tf-dGx"/>
                                         <constraint firstAttribute="bottom" secondItem="JuP-Wl-52v" secondAttribute="bottom" constant="89.5" id="8i8-qZ-zD2"/>
@@ -1145,6 +1163,6 @@
         <image name="hd_hourglass.png" width="330" height="755"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="YuR-cJ-K1t"/>
+        <segue reference="DpT-zd-AxQ"/>
     </inferredMetricsTieBreakers>
 </document>
