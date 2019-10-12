@@ -9,6 +9,8 @@
 import UIKit
 import FirebaseDatabase
 
+var checkedin = false
+
 class CheckinViewController: UIViewController {
     
     var firstref: DatabaseReference?
@@ -53,6 +55,8 @@ class CheckinViewController: UIViewController {
         classref?.child("Class").childByAutoId().setValue(year.text)
         categoryref?.child("Category").childByAutoId().setValue(category.text)
         emailref?.child("Email").childByAutoId().setValue(email.text)
+        
+        checkedin = true
         
     }
     
