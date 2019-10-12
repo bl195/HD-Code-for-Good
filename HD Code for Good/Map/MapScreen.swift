@@ -94,7 +94,17 @@ let datas: [Message] =
      Message(for:"Schiciano Atrium","MLH werewolf", "8:00 PM"),
      Message(for:"Innovation Co-Lab","Mixer for Female-Identifying", "9:00 PM"),
      Message(for:"Schiciano Atrium","Nerf War", "10:00 PM"),
-     Message(for:"Schiciano Atrium","Spicy Noodle Challenge", "11:00 PM")]
+     Message(for:"Schiciano Atrium","Spicy Noodle Challenge", "11:00 PM"),
+     Message(for:"Twinnie's","Midnight Snacks", "12:00 AM"),
+     Message(for:"Hudson Hall","Nap Time", "12:00 AM"),
+     Message(for:"Schiciano Atrium","Breakfast", "9:00 AM"),
+     Message(for:"Hudson Hall","Workshop 4", "11:00 AM"),
+     Message(for:"Schiciano Atrium","Lunch", "12:00 PM"),
+     Message(for:"All Participants","Hacking Ends", "1:30 PM"),
+     Message(for:"CIEMAS Lobby","First-Round Judging", "2:00 PM"),
+     Message(for:"CIEMAS Lobby","Final Demos and Judging", "2:45 PM"),
+     Message(for:"Reynolds Theatre","Closing Ceremony", "4:30 PM"),
+     Message(for:"Science Drive","VTech Bus Leaves", "6:00 PM")]
 
     extension MapScreen: UITableViewDataSource, UITableViewDelegate{
 

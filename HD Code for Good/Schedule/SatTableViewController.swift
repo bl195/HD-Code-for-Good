@@ -3,23 +3,23 @@ import UIKit
 class SatTableViewController: UITableViewController {
     
     let datas: [Message] =
-        [Message(for: "Schiciano Atrium", "Check-In Begins", "9:00 AM - 10:45 AM"),
-         Message(for: "Reynolds Theatre", "Opening Ceremonies", "11:00 AM - 12:30 AM"),
-         Message(for: "Schiciano Foyer", "Team Formation Mixer", "12:30 AM - 1:00 PM"),
-         Message(for: "Schiciano Atrium", "Lunch", "1:00 PM - 2:00 PM"),
-             Message(for: "Everywhere", "Hacking Commneces", "2:00 PM"),
-             Message(for:"Hudson 201","Workshop 1", "2:30 PM - 3:30 PM"),
-             Message(for:"Hudson 232","Workshop 2", "2:30 PM - 3:30 PM"),
-             Message(for:"Hudson 222","Workshop 3", "2:30 PM - 3:30 PM"),
-             Message(for:"Hudson 216","Workshop 4", "2:30 PM - 3:30 PM"),
-             Message(for:"Harrington Quad","Puppies!!!!!", "3:00 PM - 5:00 PM"),
-             Message(for:"Hudson 115A","Workshop 5", "4:30 PM - 5:30 PM"),
-             Message(for:"Hudson 216","Workshop 6", "4:45 PM - 6:15 PM"),
-             Message(for:"Innovation Co-Lab","Mixer for Female-Identifying", "6:00 PM - 7:00 PM"),
-             Message(for:"Schiciano Foyer","Dinner", "7:00 PM - 8:00 PM"),
-             Message(for:"Schiciano Foyer","Pie an Organizer", "8:30 PM - 9:00 PM"),
-             Message(for:"Twinnie's Floor 2","Nerf War", "10:00 PM - 11:00 PM"),
-             Message(for:"Schiciano Atrium","Spicy Noodle Challenge", "11:00 PM - 11:45 PM")]
+        [Message(for: "Schiciano Atrium", "Check-In Begins", "8:00 AM"),
+         Message(for: "Reynolds Theatre", "Opening Ceremonies", "10:00 AM"),
+         Message(for: "Schiciano Atrium", "Lunch", "11:00 AM"),
+         Message(for: "Schiciano Lobby", "Team Formation Mixer", "11:00 AM"),
+         Message(for: "Harrington Quad", "Frisbee, Football, Volleyball", "12:00 PM"),
+         Message(for:"Hudson 201","Intro to Hardware", "1:00 PM"),
+         Message(for:"Hudson 232","VR Workshop", "2:00 PM"),
+         Message(for:"Hudson 222","Health Track Kickoff", "3:00 PM"),
+         Message(for:"Hudson 216","Javascript Workshop", "4:00 PM"),
+         Message(for:"Harrington Quad","Puppies!!!!!", "4:00 PM"),
+         Message(for:"Hudson 115A","API Workshop", "5:00 AM"),
+         Message(for:"Hudson 216","Mobile Workshop", "5:00 PM"),
+         Message(for:"Schiciano Atrium","Dinner", "6:00 PM"),
+         Message(for:"Schiciano Lobby","MLH werewolf", "8:00 PM"),
+         Message(for:"Innovation Co-Lab","Mixer for Female-Identifying", "9:00 PM"),
+         Message(for:"Twinnie's Floor 2","Nerf War", "10:00 PM"),
+         Message(for:"Schiciano Atrium","Spicy Noodle Challenge", "11:00 PM")]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,21 +51,6 @@ class SatTableViewController: UITableViewController {
         return 1
     }
     
-    override func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
-        let important = importantAction(at: indexPath)
-        return UISwipeActionsConfiguration(actions: [important])
-    }
-    
-    func importantAction(at indexPath: IndexPath) -> UIContextualAction{
-        let data = datas[indexPath.row]
-        let action = UIContextualAction(style: .normal, title: "Important"){ (action, view, completion) in
-//            data.isImportant = !data.isImportant
-            completion(true)
-        }
-        action.image = UIImage(contentsOfFile: "icons8-alarm-50")
-        action.backgroundColor = .red
-        return action
-    }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
