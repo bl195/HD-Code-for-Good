@@ -15,16 +15,15 @@ class Message{
 
 class TableViewController: UITableViewController {
 
-    let datas: [Message] = [Message(for:"Twinnie's","Midnight Snacks", "12:00 AM - 8:00 AM"),
-                            Message(for:"Hudson (222,224,232)","Nap Time", "12:00 AM - 8:00 AM"),
-                            Message(for:"Schiciano Atrium","Breakfast", "9:00 AM - 9:45 AM"),
-                            Message(for:"Hudson 216","Workshop 7", "11:00 AM - 12:00 PM"),
-                            Message(for:"Hudson 222","Workshop 8", "11:00 AM - 12:00 PM"),
+    let datas: [Message] = [Message(for:"Twinnie's","Midnight Snacks", "12:00 AM"),
+                            Message(for:"Hudson (222,224,232)","Nap Time", "12:00 AM"),
+                            Message(for:"Schiciano Atrium","Breakfast", "9:00 AM"),
+                            Message(for:"Hudson","Workshop 4", "11:00 AM"),
                             Message(for:"Schiciano Atrium","Lunch", "12:00 PM"),
                             Message(for:"All Participants","Hacking Ends", "1:30 PM"),
                             Message(for:"CIEMAS Lobby","First-Round Judging", "2:00 PM"),
-                            Message(for:"CIEMAS Lobby","Final Demos and Judging", "2:45 PM - 4:00 PM"),
-                            Message(for:"Reynolds Theatre","Closing Ceremony", "4:30 PM - 5:30 PM"),
+                            Message(for:"CIEMAS Lobby","Final Demos and Judging", "2:45 PM"),
+                            Message(for:"Reynolds Theatre","Closing Ceremony", "4:30 PM"),
                             Message(for:"Science Drive","VTech Bus Leaves", "6:00 PM")]
     
     override func viewDidLoad() {
@@ -47,23 +46,7 @@ class TableViewController: UITableViewController {
     @objc func tapped(){
         print("tapped")
     }
-    
-    override func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
-        let important = importantAction(at: indexPath)
-        return UISwipeActionsConfiguration(actions: [important])
-    }
-    
-    func importantAction(at indexPath: IndexPath) -> UIContextualAction{
-        let data = datas[indexPath.row]
-        let action = UIContextualAction(style: .normal, title: "Important"){ (action, view, completion) in
-            //            data.isImportant = !data.isImportant
-            completion(true)
-        }
-        action.image = UIImage(contentsOfFile: "icons8-alarm-50")
-        action.backgroundColor = .red
-        return action
-    }
-    
+
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1

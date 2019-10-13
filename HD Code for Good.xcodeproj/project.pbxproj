@@ -44,7 +44,6 @@
 		232F8DE123369621006E665B /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 232F8DBA23369621006E665B /* LICENSE.txt */; };
 		232F8DE223369621006E665B /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 232F8DBB23369621006E665B /* OpenSans-Regular.ttf */; };
 		232F8DE323369621006E665B /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 232F8DBC23369621006E665B /* OpenSans-BoldItalic.ttf */; };
-		234584C3232D7C8800A13E78 /* hd_hourglass.png in Resources */ = {isa = PBXBuildFile; fileRef = 234584C2232D7C8800A13E78 /* hd_hourglass.png */; };
 		590F7287BAFBAA66AB9B3D74 /* Pods_HD_Code_for_GoodUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDB1D64EFF15B42EFFB9C5A /* Pods_HD_Code_for_GoodUITests.framework */; };
 		77E35D1DF4DC80D1C972CA50 /* Pods_HD_Code_for_GoodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CBB51869287FEA4D038C2D /* Pods_HD_Code_for_GoodTests.framework */; };
 		8E78BF9D2990DD82697BF5E4 /* Pods_HD_Code_for_Good.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D2EAA6CA0368E6A565450B /* Pods_HD_Code_for_Good.framework */; };
@@ -63,6 +62,7 @@
 		C79953DC229F14E20032FACE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C79953DA229F14E20032FACE /* LaunchScreen.storyboard */; };
 		C79953E7229F14E20032FACE /* HD_Code_for_GoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79953E6229F14E20032FACE /* HD_Code_for_GoodTests.swift */; };
 		C79953F2229F14E20032FACE /* HD_Code_for_GoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79953F1229F14E20032FACE /* HD_Code_for_GoodUITests.swift */; };
+		C7F1104C233932A0000D8DA8 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = C7F1104B233932A0000D8DA8 /* OFL.txt */; };
 		C7FF16AD22DBB98D00697335 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FF16AC22DBB98D00697335 /* TableViewController.swift */; };
 		C7FF16AF22DBBF0800697335 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FF16AE22DBBF0800697335 /* MessageCell.swift */; };
 /* End PBXBuildFile section */
@@ -153,6 +153,7 @@
 		C79953ED229F14E20032FACE /* HD Code for GoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HD Code for GoodUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C79953F1229F14E20032FACE /* HD_Code_for_GoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HD_Code_for_GoodUITests.swift; sourceTree = "<group>"; };
 		C79953F3229F14E20032FACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7F1104B233932A0000D8DA8 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		C7FF16AC22DBB98D00697335 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		C7FF16AE22DBBF0800697335 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -213,6 +214,7 @@
 		232F8D9D23369621006E665B /* Montserrat */ = {
 			isa = PBXGroup;
 			children = (
+				C7F1104B233932A0000D8DA8 /* OFL.txt */,
 				232F8D9E23369621006E665B /* Montserrat-LightItalic.ttf */,
 				232F8D9F23369621006E665B /* Montserrat-Medium.ttf */,
 				232F8DA023369621006E665B /* Montserrat-BoldItalic.ttf */,
@@ -522,8 +524,8 @@
 				232F8DCC23369621006E665B /* Montserrat-Thin.ttf in Resources */,
 				232F8DE223369621006E665B /* OpenSans-Regular.ttf in Resources */,
 				232F8DC523369621006E665B /* Cabin-RegularItalic.ttf in Resources */,
+				C7F1104C233932A0000D8DA8 /* OFL.txt in Resources */,
 				232F8DC923369621006E665B /* Montserrat-Light.ttf in Resources */,
-				234584C3232D7C8800A13E78 /* hd_hourglass.png in Resources */,
 				232F8DC223369621006E665B /* Cabin-Regular.ttf in Resources */,
 				232F8DD723369621006E665B /* Montserrat-SemiBoldItalic.ttf in Resources */,
 				232F8DC423369621006E665B /* Cabin-Bold.ttf in Resources */,
@@ -867,6 +869,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DG5G3Q88RG;
 				INFOPLIST_FILE = "HD Code for GoodTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -888,6 +891,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DG5G3Q88RG;
 				INFOPLIST_FILE = "HD Code for GoodTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -908,6 +912,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DG5G3Q88RG;
 				INFOPLIST_FILE = "HD Code for GoodUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -928,6 +933,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DG5G3Q88RG;
 				INFOPLIST_FILE = "HD Code for GoodUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

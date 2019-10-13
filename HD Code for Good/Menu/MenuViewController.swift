@@ -14,6 +14,7 @@ class MenuViewController: UIViewController {
     @IBOutlet weak var menubut: UIButton!
     
     
+    
     let futureDate: Date = {
         var future = DateComponents(
             year: 2019,
@@ -32,6 +33,7 @@ class MenuViewController: UIViewController {
         return Calendar.current.dateComponents([.day, .hour, .minute, .second], from: Date(), to: futureDate)
     }
     
+    
     @objc func updateTime() {
         let countdown = self.countdown //only compute once per call
         let days = countdown.day!
@@ -42,7 +44,18 @@ class MenuViewController: UIViewController {
     }
     
 
+    @IBOutlet weak var checkedinlabel: UILabel!
+    
     override func viewDidLoad() {
+        print(checkedin)
+        if checkedin == true{
+            menubut.isHidden = true
+            checkedinlabel.isHidden = false
+        }
+        else{
+            checkedinlabel.isHidden = true
+            menubut.isHidden = false
+        }
         super.viewDidLoad()
         menubut.layer.cornerRadius = 20.0
         // Do any additional setup after loading the view.

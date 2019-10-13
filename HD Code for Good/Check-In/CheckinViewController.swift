@@ -9,6 +9,8 @@
 import UIKit
 import FirebaseDatabase
 
+var checkedin = false
+
 class CheckinViewController: UIViewController {
     
     var firstref: DatabaseReference?
@@ -33,6 +35,20 @@ class CheckinViewController: UIViewController {
     
     override func viewDidLoad() {
         
+        let toolbar = UIToolbar()
+        toolbar.sizeToFit()
+        let doneButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.done, target: self, action: #selector(self.doneClicked))
+        
+        toolbar.setItems([doneButton], animated: true)
+        
+        firstname.inputAccessoryView = toolbar
+        lastname.inputAccessoryView = toolbar
+        pronouns.inputAccessoryView = toolbar
+        school.inputAccessoryView = toolbar
+        year.inputAccessoryView = toolbar
+        category.inputAccessoryView = toolbar
+        email.inputAccessoryView = toolbar
+        
         firstref = Database.database().reference()
         lastref = Database.database().reference()
         pronounref = Database.database().reference()
@@ -46,6 +62,9 @@ class CheckinViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @objc func doneClicked(){
+        view.endEditing(true)
+    }
     @IBAction func addPost(_ sender: Any) {
         firstref?.child("First Name").childByAutoId().setValue(firstname.text)
         lastref?.child("Last Name").childByAutoId().setValue(lastname.text)
@@ -53,6 +72,8 @@ class CheckinViewController: UIViewController {
         classref?.child("Class").childByAutoId().setValue(year.text)
         categoryref?.child("Category").childByAutoId().setValue(category.text)
         emailref?.child("Email").childByAutoId().setValue(email.text)
+        
+        checkedin = true
         
     }
     
