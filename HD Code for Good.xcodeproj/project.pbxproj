@@ -63,6 +63,7 @@
 		C79953E7229F14E20032FACE /* HD_Code_for_GoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79953E6229F14E20032FACE /* HD_Code_for_GoodTests.swift */; };
 		C79953F2229F14E20032FACE /* HD_Code_for_GoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79953F1229F14E20032FACE /* HD_Code_for_GoodUITests.swift */; };
 		C7F1104C233932A0000D8DA8 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = C7F1104B233932A0000D8DA8 /* OFL.txt */; };
+		C7FC9C0D2353B58500F630D8 /* iTunesArtwork@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7FC9C0C2353B58500F630D8 /* iTunesArtwork@1x.png */; };
 		C7FF16AD22DBB98D00697335 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FF16AC22DBB98D00697335 /* TableViewController.swift */; };
 		C7FF16AF22DBBF0800697335 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FF16AE22DBBF0800697335 /* MessageCell.swift */; };
 /* End PBXBuildFile section */
@@ -155,6 +156,7 @@
 		C79953F1229F14E20032FACE /* HD_Code_for_GoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HD_Code_for_GoodUITests.swift; sourceTree = "<group>"; };
 		C79953F3229F14E20032FACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7F1104B233932A0000D8DA8 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		C7FC9C0C2353B58500F630D8 /* iTunesArtwork@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@1x.png"; sourceTree = "<group>"; };
 		C7FF16AC22DBB98D00697335 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		C7FF16AE22DBBF0800697335 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -322,6 +324,7 @@
 				C79953D8229F14E20032FACE /* Assets.xcassets */,
 				C79953DA229F14E20032FACE /* LaunchScreen.storyboard */,
 				C79953DD229F14E20032FACE /* Info.plist */,
+				C7FC9C0C2353B58500F630D8 /* iTunesArtwork@1x.png */,
 				C718C2E723282F360055FF3F /* GoogleService-Info.plist */,
 				234584C2232D7C8800A13E78 /* hd_hourglass.png */,
 			);
@@ -515,6 +518,7 @@
 				232F8DCB23369621006E665B /* Montserrat-ExtraLight.ttf in Resources */,
 				232F8DC623369621006E665B /* Montserrat-LightItalic.ttf in Resources */,
 				232F8DE023369621006E665B /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				C7FC9C0D2353B58500F630D8 /* iTunesArtwork@1x.png in Resources */,
 				232F8DCA23369621006E665B /* Montserrat-ThinItalic.ttf in Resources */,
 				232F8DD023369621006E665B /* Montserrat-RegularItalic.ttf in Resources */,
 				C79953D7229F14E10032FACE /* Main.storyboard in Resources */,
