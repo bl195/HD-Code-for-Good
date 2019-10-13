@@ -37,7 +37,7 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O2g-BT-did">
-                                <rect key="frame" x="37" y="811" width="76" height="33"/>
+                                <rect key="frame" x="37" y="811" width="77" height="33"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="33" id="tGd-ei-KXL"/>
                                 </constraints>
@@ -63,7 +63,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k7h-dU-6z5">
-                                <rect key="frame" x="317" y="809" width="38" height="37"/>
+                                <rect key="frame" x="316" y="809" width="39" height="37"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="37" id="WZx-wl-WqY"/>
                                 </constraints>
@@ -85,7 +85,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HackDuke" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0hB-FL-ehw">
-                                <rect key="frame" x="34" y="88" width="347.5" height="92"/>
+                                <rect key="frame" x="34" y="88" width="326.5" height="92"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="92" id="ezz-qj-09w"/>
                                 </constraints>
@@ -100,7 +100,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Code for Good 2019" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vgl-zY-Mu0">
-                                <rect key="frame" x="36" y="192" width="220.5" height="30"/>
+                                <rect key="frame" x="36" y="192" width="235" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Z2L-ej-JX1"/>
                                 </constraints>
@@ -321,7 +321,7 @@
                             <outlet property="delegate" destination="8v9-BZ-zlL" id="Nkh-eS-DMh"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="0OK-Q2-gjL"/>
+                    <tabBarItem key="tabBarItem" title="Sunday, Day 2" id="0OK-Q2-gjL"/>
                     <navigationItem key="navigationItem" id="xPa-Qq-lm3"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Om2-Kd-Hle" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1057,8 +1057,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WD3-dr-wjo">
-                                <rect key="frame" x="113" y="392" width="188" height="33"/>
+                                <rect key="frame" x="113" y="392" width="188" height="53"/>
                                 <color key="backgroundColor" red="0.310320437" green="0.32403215769999999" blue="0.99988752599999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="oEd-Wd-RRr"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="18"/>
                                 <state key="normal" title="BACK TO MENU">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1239,7 +1242,7 @@
                             <outlet property="delegate" destination="BFP-Wc-e92" id="eVa-0L-9yn"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="dQb-uM-vFn"/>
+                    <tabBarItem key="tabBarItem" title="Saturday, Day 1" id="dQb-uM-vFn"/>
                     <navigationItem key="navigationItem" id="TX7-L9-h5x"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Od-3E-g5v" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1253,6 +1256,6 @@
         <image name="hd_hourglass.png" width="330" height="755"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="umS-NQ-av8"/>
+        <segue reference="cRH-4v-IDn"/>
     </inferredMetricsTieBreakers>
 </document>
