@@ -23,7 +23,7 @@ class SatTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-         self.title = "Saturday, Day 1"
+    
         let button = UIButton(type: .custom)
         //set image for button
         button.setImage(UIImage(named: "back"), for: .normal)
