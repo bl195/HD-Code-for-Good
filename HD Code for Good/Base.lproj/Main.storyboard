@@ -332,7 +332,7 @@
                             <outlet property="delegate" destination="8v9-BZ-zlL" id="Nkh-eS-DMh"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Sunday, Day 2" id="0OK-Q2-gjL"/>
+                    <tabBarItem key="tabBarItem" title="Sunday, Day 2" image="icons8-sunday-30 (1)" id="0OK-Q2-gjL"/>
                     <navigationItem key="navigationItem" id="xPa-Qq-lm3"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Om2-Kd-Hle" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -552,8 +552,8 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QUj-7O-7tr">
-                                                <rect key="frame" x="33" y="48" width="42" height="36"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QUj-7O-7tr">
+                                                <rect key="frame" x="20" y="48" width="40" height="36"/>
                                                 <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="18"/>
                                                 <state key="normal" title="Back">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -653,7 +653,7 @@
                                             <constraint firstAttribute="bottom" secondItem="BOV-UE-jGT" secondAttribute="bottom" constant="740" id="evC-La-wRu"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="rMP-wp-2Bt" secondAttribute="trailing" constant="20" symbolic="YES" id="fti-wC-2HE"/>
                                             <constraint firstAttribute="bottom" secondItem="ohW-rL-8p4" secondAttribute="bottom" constant="170" id="gCZ-sr-Bk5"/>
-                                            <constraint firstItem="QUj-7O-7tr" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="eXn-hE-yNh" secondAttribute="leading" constant="20" symbolic="YES" id="gpU-tQ-fuK"/>
+                                            <constraint firstItem="QUj-7O-7tr" firstAttribute="leading" secondItem="eXn-hE-yNh" secondAttribute="leading" constant="20" symbolic="YES" id="gpU-tQ-fuK"/>
                                             <constraint firstAttribute="bottom" secondItem="hG5-vo-9eN" secondAttribute="bottom" constant="294" id="hi9-rg-bdA"/>
                                             <constraint firstItem="nbD-xL-v4E" firstAttribute="leading" secondItem="eXn-hE-yNh" secondAttribute="leading" constant="38" id="iju-IG-BA6"/>
                                             <constraint firstAttribute="trailing" secondItem="igg-yH-zBY" secondAttribute="trailing" constant="33" id="jBv-IR-Uvc"/>
@@ -1254,7 +1254,7 @@
                             <outlet property="delegate" destination="BFP-Wc-e92" id="eVa-0L-9yn"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Saturday, Day 1" id="dQb-uM-vFn"/>
+                    <tabBarItem key="tabBarItem" title="Saturday, Day 1" image="icons8-saturday-30" id="dQb-uM-vFn"/>
                     <navigationItem key="navigationItem" id="TX7-L9-h5x"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Od-3E-g5v" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1266,8 +1266,10 @@
         <image name="Screen Shot 2019-08-26 at 9.09.21 PM" width="315" height="582"/>
         <image name="black" width="1200" height="600"/>
         <image name="hd_hourglass.png" width="330" height="755"/>
+        <image name="icons8-saturday-30" width="30" height="30"/>
+        <image name="icons8-sunday-30 (1)" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="QEd-23-UMz"/>
+        <segue reference="DpT-zd-AxQ"/>
     </inferredMetricsTieBreakers>
 </document>
