@@ -898,7 +898,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1T7-NI-hrp">
-                                <rect key="frame" x="220" y="194" width="108.5" height="30"/>
+                                <rect key="frame" x="220" y="194" width="156" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="q1s-mz-AIr"/>
                                 </constraints>
@@ -943,7 +943,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aud-TN-FWc">
-                                <rect key="frame" x="40" y="63" width="42" height="33"/>
+                                <rect key="frame" x="40" y="63" width="40" height="33"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="33" id="kGJ-C2-tXl"/>
                                 </constraints>
@@ -1008,6 +1008,7 @@
                             <constraint firstItem="ohp-8x-Oif" firstAttribute="trailing" secondItem="c4y-cO-njC" secondAttribute="trailing" constant="136" id="SsJ-Lh-2Wh"/>
                             <constraint firstItem="Vgd-Xh-r42" firstAttribute="top" secondItem="ohp-8x-Oif" secondAttribute="top" constant="86" id="V8S-Sc-fCv"/>
                             <constraint firstItem="aud-TN-FWc" firstAttribute="leading" secondItem="ohp-8x-Oif" secondAttribute="leading" constant="40" id="VUg-wT-dFO"/>
+                            <constraint firstItem="ohp-8x-Oif" firstAttribute="trailing" secondItem="1T7-NI-hrp" secondAttribute="trailing" constant="38" id="YRj-Gg-kIx"/>
                             <constraint firstItem="gRl-Hk-XjU" firstAttribute="top" secondItem="2VR-Fy-nEo" secondAttribute="bottom" constant="23" id="aNe-EA-bsE"/>
                             <constraint firstItem="1T7-NI-hrp" firstAttribute="leading" secondItem="2VR-Fy-nEo" secondAttribute="trailing" constant="20" id="akG-p8-CNK"/>
                             <constraint firstItem="Vgd-Xh-r42" firstAttribute="leading" secondItem="ohp-8x-Oif" secondAttribute="leading" constant="123" id="aoR-HW-YSb"/>
