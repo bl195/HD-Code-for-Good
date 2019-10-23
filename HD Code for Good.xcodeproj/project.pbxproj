@@ -47,6 +47,7 @@
 		590F7287BAFBAA66AB9B3D74 /* Pods_HD_Code_for_GoodUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDB1D64EFF15B42EFFB9C5A /* Pods_HD_Code_for_GoodUITests.framework */; };
 		77E35D1DF4DC80D1C972CA50 /* Pods_HD_Code_for_GoodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CBB51869287FEA4D038C2D /* Pods_HD_Code_for_GoodTests.framework */; };
 		8E78BF9D2990DD82697BF5E4 /* Pods_HD_Code_for_Good.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D2EAA6CA0368E6A565450B /* Pods_HD_Code_for_Good.framework */; };
+		C707E136235FCEA900642564 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C707E135235FCEA900642564 /* HelpViewController.swift */; };
 		C718C2E823282F360055FF3F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C718C2E723282F360055FF3F /* GoogleService-Info.plist */; };
 		C72EB85123182F99000142A3 /* CheckedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72EB85023182F99000142A3 /* CheckedInViewController.swift */; };
 		C72EB8532318C5FF000142A3 /* MapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72EB8522318C5FF000142A3 /* MapCell.swift */; };
@@ -134,6 +135,7 @@
 		ACDB1D64EFF15B42EFFB9C5A /* Pods_HD_Code_for_GoodUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HD_Code_for_GoodUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9BD6EF5D47A3EA8048ACEBC /* Pods-HD Code for GoodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HD Code for GoodTests.debug.xcconfig"; path = "Target Support Files/Pods-HD Code for GoodTests/Pods-HD Code for GoodTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C1CAF10597454ED1B5446397 /* Pods-HD Code for Good.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HD Code for Good.debug.xcconfig"; path = "Target Support Files/Pods-HD Code for Good/Pods-HD Code for Good.debug.xcconfig"; sourceTree = "<group>"; };
+		C707E135235FCEA900642564 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 		C718C2E723282F360055FF3F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C72EB85023182F99000142A3 /* CheckedInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckedInViewController.swift; sourceTree = "<group>"; };
 		C72EB8522318C5FF000142A3 /* MapCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCell.swift; sourceTree = "<group>"; };
@@ -319,6 +321,7 @@
 				C74B88E122DE4AF300B8995D /* Map */,
 				C7F19D0822DEA9F000548B29 /* Teams */,
 				C7F19D0922DEAA0D00548B29 /* Menu */,
+				C707E135235FCEA900642564 /* HelpViewController.swift */,
 				C79953D5229F14E10032FACE /* Main.storyboard */,
 				C79953D1229F14E10032FACE /* AppDelegate.swift */,
 				C79953D8229F14E20032FACE /* Assets.xcassets */,
@@ -656,6 +659,7 @@
 				C74B88DF22DD7CEA00B8995D /* MenuViewController.swift in Sources */,
 				C72EB8532318C5FF000142A3 /* MapCell.swift in Sources */,
 				C79953D2229F14E10032FACE /* AppDelegate.swift in Sources */,
+				C707E136235FCEA900642564 /* HelpViewController.swift in Sources */,
 				C74B88DD22DD797500B8995D /* CheckinViewController.swift in Sources */,
 				C72EB85123182F99000142A3 /* CheckedInViewController.swift in Sources */,
 				C74B88E322DE4BCC00B8995D /* SatTableViewController.swift in Sources */,

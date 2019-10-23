@@ -66,6 +66,5 @@ class SatTableViewController: UITableViewController {
         
         return cell
     }
-
     
 }
