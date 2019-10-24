@@ -45,12 +45,12 @@ class CheckinViewController: UIViewController {
     }
     
     @IBAction func addPost(_ sender: Any) {
-        userref?.child("Users").childByAutoId().setValue(firstname.text)
-        userref?.child("Users").childByAutoId().setValue(lastname.text)
-        userref?.child("Users").childByAutoId().setValue(pronouns.text)
-        userref?.child("Users").childByAutoId().setValue(year.text)
-        userref?.child("Users").childByAutoId().setValue(category.text)
-        userref?.child("Users").childByAutoId().setValue(email.text)
+        userref?.child((firstname.text)!).setValue(["first name": firstname.text, "last name": lastname.text, "pronouns":pronouns.text, "year":year.text,"category":category.text,"email":email.text])
+//        userref?.child("Users").childByAutoId().setValue(["last name": lastname.text])
+//        userref?.child("Users").childByAutoId().setValue(["pronouns":pronouns.text])
+//        userref?.child("Users").childByAutoId().setValue(["year":year.text])
+//        userref?.child("Users").childByAutoId().setValue(["category":category.text])
+//        userref?.child("Users").childByAutoId().setValue(["email":email.text])
         
         checkedin = true
         
