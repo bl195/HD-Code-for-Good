@@ -14,6 +14,25 @@ class HelpViewController: UIViewController {
     }
     
     
+    @IBAction func slack(_ sender: Any) {
+        if let url = URL(string: "tinyurl.com/JoinHDSlack") {
+            if UIApplication.shared.canOpenURL(url) {
+                UIApplication.shared.open(url, options: [:])
+            }
+        }
+    }
+    
+    
+    @IBAction func devpost(_ sender: Any) {
+        if let url = URL(string: "hackduke-2019.devpost.com") {
+            if UIApplication.shared.canOpenURL(url) {
+                UIApplication.shared.open(url, options: [:])
+            }
+        }
+        
+    }
+    
+    
     @IBAction func samcell(_ sender: UIButton) {
         guard let numberString = URL(string: "tel://" + "4104282378") else {
             return
