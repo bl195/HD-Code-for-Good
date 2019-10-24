@@ -5,6 +5,7 @@ var checkedin = false
 
 class CheckinViewController: UIViewController {
     
+    
     var userref: DatabaseReference?
  
     @IBOutlet weak var firstname: UITextField!
@@ -16,6 +17,15 @@ class CheckinViewController: UIViewController {
     @IBOutlet weak var email: UITextField!
     
     @IBOutlet weak var subbut: UIButton!
+    
+    
+    @IBAction func privacy(_ sender: Any) {
+        if let url = URL(string: "https://app.termly.io/document/privacy-policy/227859db-1da0-461c-a950-f951d3281caf") {
+            if UIApplication.shared.canOpenURL(url) {
+                UIApplication.shared.open(url, options: [:])
+            }
+        }
+    }
     
     override func viewDidLoad() {
         

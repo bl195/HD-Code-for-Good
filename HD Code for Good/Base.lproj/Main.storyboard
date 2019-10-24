@@ -999,6 +999,16 @@
                                     <segue destination="EaH-pC-S37" kind="presentation" modalTransitionStyle="crossDissolve" id="D9O-Wx-gh8"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oej-K0-AQn">
+                                <rect key="frame" x="269" y="65" width="107" height="30"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="17"/>
+                                <state key="normal" title="Privacy Policy">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="privacy:" destination="org-Tu-7cC" eventType="touchUpInside" id="SSi-dA-agX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -1011,6 +1021,7 @@
                             <constraint firstItem="ALR-jW-A7H" firstAttribute="top" secondItem="kJy-o2-tHA" secondAttribute="bottom" constant="23" id="GIP-en-EHb"/>
                             <constraint firstItem="ohp-8x-Oif" firstAttribute="trailing" secondItem="kJy-o2-tHA" secondAttribute="trailing" constant="38" id="Gvk-yl-cyV"/>
                             <constraint firstItem="gRl-Hk-XjU" firstAttribute="leading" secondItem="ohp-8x-Oif" secondAttribute="leading" constant="44" id="Llb-pc-9Yl"/>
+                            <constraint firstItem="ohp-8x-Oif" firstAttribute="trailing" secondItem="oej-K0-AQn" secondAttribute="trailing" constant="38" id="Lqc-GA-nQo"/>
                             <constraint firstItem="8Jn-jc-zE7" firstAttribute="leading" secondItem="ohp-8x-Oif" secondAttribute="leading" constant="44" id="MBO-Qs-FjR"/>
                             <constraint firstItem="kJy-o2-tHA" firstAttribute="leading" secondItem="ohp-8x-Oif" secondAttribute="leading" constant="44" id="NzZ-aF-o6m"/>
                             <constraint firstItem="ohp-8x-Oif" firstAttribute="trailing" secondItem="ALR-jW-A7H" secondAttribute="trailing" constant="38" id="QXT-gs-1iu"/>
@@ -1024,8 +1035,10 @@
                             <constraint firstItem="1T7-NI-hrp" firstAttribute="leading" secondItem="2VR-Fy-nEo" secondAttribute="trailing" constant="20" id="akG-p8-CNK"/>
                             <constraint firstItem="Vgd-Xh-r42" firstAttribute="leading" secondItem="ohp-8x-Oif" secondAttribute="leading" constant="123" id="aoR-HW-YSb"/>
                             <constraint firstItem="CkP-1e-nuZ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="D3t-4Z-fsc" secondAttribute="leading" constant="-41" id="dIB-km-kr7"/>
+                            <constraint firstItem="Vgd-Xh-r42" firstAttribute="top" secondItem="oej-K0-AQn" secondAttribute="bottom" constant="35" id="ebV-YF-ZmF"/>
                             <constraint firstItem="c4y-cO-njC" firstAttribute="leading" secondItem="ohp-8x-Oif" secondAttribute="leading" constant="136" id="fkk-Jc-Jg0"/>
                             <constraint firstItem="tit-ps-Cw0" firstAttribute="top" secondItem="ALR-jW-A7H" secondAttribute="bottom" constant="22" id="frS-eS-iMZ"/>
+                            <constraint firstItem="oej-K0-AQn" firstAttribute="top" secondItem="ohp-8x-Oif" secondAttribute="top" constant="21" id="gHZ-RG-Mpf"/>
                             <constraint firstItem="tit-ps-Cw0" firstAttribute="leading" secondItem="ohp-8x-Oif" secondAttribute="leading" constant="44" id="lcU-RL-1ra"/>
                             <constraint firstItem="ohp-8x-Oif" firstAttribute="trailing" secondItem="gRl-Hk-XjU" secondAttribute="trailing" constant="38" id="mO2-3Z-1uL"/>
                             <constraint firstItem="8Jn-jc-zE7" firstAttribute="top" secondItem="tit-ps-Cw0" secondAttribute="bottom" constant="21" id="nRP-GC-113"/>
@@ -1289,6 +1302,6 @@
         <image name="icons8-sunday-30 (1)" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="YuR-cJ-K1t"/>
+        <segue reference="QEd-23-UMz"/>
     </inferredMetricsTieBreakers>
 </document>
