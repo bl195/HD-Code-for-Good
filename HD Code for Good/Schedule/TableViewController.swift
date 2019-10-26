@@ -67,8 +67,4 @@ class TableViewController: UITableViewController {
         
     }
     
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        self.tableView.backgroundColor = UIColor.init(cgColor: <#T##CGColor#>)
-    }
-
 }
