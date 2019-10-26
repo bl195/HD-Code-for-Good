@@ -254,7 +254,7 @@
                             </constraints>
                         </view>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="messageCell" rowHeight="154" id="n3T-7T-Fsz" customClass="MessageCell" customModule="HD_Code_for_Good" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="messageCell" rowHeight="154" id="n3T-7T-Fsz" customClass="MessageCell" customModule="HD_Code_for_Good" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="72" width="414" height="154"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="n3T-7T-Fsz" id="aUh-C4-uXb">
@@ -1215,7 +1215,7 @@
                             </constraints>
                         </view>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="messageCell" rowHeight="154" id="tN1-rQ-B5y" customClass="MessageCell" customModule="HD_Code_for_Good" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="messageCell" rowHeight="154" id="tN1-rQ-B5y" customClass="MessageCell" customModule="HD_Code_for_Good" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="72" width="414" height="154"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tN1-rQ-B5y" id="4wz-Xy-Eb7">
@@ -1315,6 +1315,6 @@
         <image name="icons8-sunday-30 (1)" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ilf-Lv-GR4"/>
+        <segue reference="cRH-4v-IDn"/>
     </inferredMetricsTieBreakers>
 </document>
