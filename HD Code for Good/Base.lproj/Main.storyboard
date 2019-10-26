@@ -381,14 +381,14 @@
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wLx-W1-w86">
                                                 <rect key="frame" x="22" y="106" width="370" height="114"/>
-                                                <color key="backgroundColor" red="1" green="0.85340623839999996" blue="0.7369331791" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.98792773485183716" green="0.90928632020950317" blue="0.84169083833694458" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agW-sH-dNW">
                                                 <rect key="frame" x="22" y="228" width="370" height="179"/>
-                                                <color key="backgroundColor" red="1" green="0.85340623839999996" blue="0.7369331791" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.98792773485183716" green="0.90928632020950317" blue="0.84169083833694458" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -413,14 +413,14 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Slack Link:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="47o-03-zks">
-                                                <rect key="frame" x="36" y="323" width="73.5" height="37"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <rect key="frame" x="36" y="323" width="69.5" height="37"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Devpost Link:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dXH-1b-dSS">
-                                                <rect key="frame" x="36" y="354" width="93.5" height="37"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <rect key="frame" x="36" y="354" width="88.5" height="37"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -456,7 +456,7 @@
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5uB-Bp-w1y">
                                                 <rect key="frame" x="22" y="416" width="370" height="569"/>
-                                                <color key="backgroundColor" red="1" green="0.85340623839999996" blue="0.7369331791" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.98792773485183716" green="0.90928632020950317" blue="0.84169083833694458" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -500,34 +500,34 @@
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UIZ-TF-TVU">
                                                 <rect key="frame" x="33" y="486" width="348" height="83"/>
-                                                <color key="backgroundColor" red="1" green="0.85340623839999996" blue="0.7369331791" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.98853403329849243" green="0.91282552480697632" blue="0.84191209077835083" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <string key="text">The grand prizes are donations under your name to charities and causes! There will be grand prize winners for each track, novice track and many other company sponsored API prizes as well.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hOR-PG-tOr">
                                                 <rect key="frame" x="33" y="597" width="348" height="85"/>
-                                                <color key="backgroundColor" red="1" green="0.85340623839999996" blue="0.7369331791" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.98792773485183716" green="0.90928632020950317" blue="0.84169083833694458" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <string key="text">HackDuke starts Saturday, Nov 2nd at 9:00 AM and ends on Sunday, Nov 3rd at 5:30 PM. It is hosted on Duke University's West Campus, in and around the Fitzpatrick Engineering Building.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zwr-rI-iGW">
                                                 <rect key="frame" x="33" y="712" width="348" height="81"/>
-                                                <color key="backgroundColor" red="1" green="0.85340623839999996" blue="0.7369331791" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.98792773485183716" green="0.90928632020950317" blue="0.84169083833694458" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <string key="text">Anyone! Get to know your fellow programmers better from your own and other schools! The only request is that you make a new friend by talking to each other, our mentors and our experts!</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Bring your own ethernet cables (or you can just use WiFi) and bring any Nerf gun arsenal you have!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="igg-yH-zBY">
                                                 <rect key="frame" x="33" y="830" width="348" height="52"/>
-                                                <color key="backgroundColor" red="1" green="0.85340623839999996" blue="0.7369331791" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.98792773485183716" green="0.90928632020950317" blue="0.84169083833694458" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nKY-N8-agL">
                                                 <rect key="frame" x="33" y="910" width="348" height="63"/>
-                                                <color key="backgroundColor" red="1" green="0.85340623839999996" blue="0.7369331791" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.98792773485183716" green="0.90928632020950317" blue="0.84169083833694458" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <string key="text">We welcome all software and hardware hacks that align to our tracks for impact. We will also have lab space for hardware hackers.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -564,16 +564,16 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g3W-PN-7Cc">
-                                                <rect key="frame" x="216" y="328" width="148" height="28"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <rect key="frame" x="206" y="328" width="158" height="29"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <state key="normal" title="tinyurl.com/JoinHDSlack"/>
                                                 <connections>
                                                     <action selector="slack:" destination="kAA-P4-Eqy" eventType="touchUpInside" id="1bd-gm-XN5"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L8c-rk-J8u">
-                                                <rect key="frame" x="186" y="357" width="176" height="28"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L8c-rk-J8u">
+                                                <rect key="frame" x="174" y="358" width="188" height="27"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <state key="normal" title="hackduke-2019.devpost.com"/>
                                                 <connections>
                                                     <action selector="devpost:" destination="kAA-P4-Eqy" eventType="touchUpInside" id="CiX-7H-W3G"/>
@@ -1224,7 +1224,7 @@
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nLI-pj-LjB">
                                             <rect key="frame" x="9" y="7" width="396" height="139"/>
-                                            <color key="backgroundColor" red="1" green="0.85340623839999996" blue="0.7369331791" alpha="0.60407748287671237" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" red="0.98792773485183716" green="0.90928632020950317" blue="0.84169083833694458" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </view>
                                         <label userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dR0-Mv-xnG">
                                             <rect key="frame" x="9" y="11" width="0.0" height="132"/>
@@ -1315,6 +1315,6 @@
         <image name="icons8-sunday-30 (1)" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="YuR-cJ-K1t"/>
+        <segue reference="ilf-Lv-GR4"/>
     </inferredMetricsTieBreakers>
 </document>

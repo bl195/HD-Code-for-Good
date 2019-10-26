@@ -3,23 +3,23 @@ import UIKit
 class SatTableViewController: UITableViewController {
     
     let datas: [Message] =
-        [Message(for: "Schiciano Atrium", "Check-In Begins", "8:00 AM"),
-         Message(for: "Reynolds Theatre", "Opening Ceremonies", "10:00 AM"),
-         Message(for: "Schiciano Atrium", "Lunch", "11:00 AM"),
-         Message(for: "Schiciano Lobby", "Team Formation Mixer", "11:00 AM"),
-         Message(for: "Harrington Quad", "Frisbee, Football, Volleyball", "12:00 PM"),
-         Message(for:"Hudson 201","Intro to Hardware", "1:00 PM"),
-         Message(for:"Hudson 232","VR Workshop", "2:00 PM"),
-         Message(for:"Hudson 222","Health Track Kickoff", "3:00 PM"),
-         Message(for:"Hudson 216","Javascript Workshop", "4:00 PM"),
-         Message(for:"Harrington Quad","Puppies!!!!!", "4:00 PM"),
-         Message(for:"Hudson 115A","API Workshop", "5:00 AM"),
-         Message(for:"Hudson 216","Mobile Workshop", "5:00 PM"),
-         Message(for:"Schiciano Atrium","Dinner", "6:00 PM"),
-         Message(for:"Schiciano Lobby","MLH werewolf", "8:00 PM"),
-         Message(for:"Innovation Co-Lab","Mixer for Female-Identifying", "9:00 PM"),
+        [Message(for:"Schiciano Foyer","Check-In Begins","9:00 AM"),
+         Message(for:"Page Auditorium","Opening Ceremonies","11:00 AM"),
+         Message(for:"Schiciano Foyer","Track Talks","12:30 PM"),
+         Message(for:"Schiciano Foyer","Lunch","1:00 PM"),
+         Message(for:"Schiciano Foyer","Team Formation Mixer","2:00 PM"),
+         Message(for:"Innovation Co-Lab","Database Workshop","2:00 PM"),
+         Message(for:"Hudson 218","React Workshop","3:00 PM"),
+         Message(for:"Harrington Quad","Puppies!!!!!","3:00 PM"),
+         Message(for:"Harrington Quad","Spikeball & Frisbee","3:00 PM"),
+         Message(for:"Hudson 218","AR/VR Workshop", "4:00 PM"),
+         Message(for:"Innovation Co-Lab","Mixer for Female-Identifying", "6:00 PM"),
+         Message(for:"Schiciano Atrium","Dinner", "6:30 PM"),
+         Message(for:"CIEMAS 1st Floor","Pie an Organizer", "7:30 PM"),
+         Message(for:"Location TBA","WIT Mixer", "9:00 PM"),
+         Message(for:"Schiciano Foyer","MLH Minigame", "8:00 PM"),
          Message(for:"Twinnie's Floor 2","Nerf War", "10:00 PM"),
-         Message(for:"Schiciano Atrium","Spicy Noodle Challenge", "11:00 PM")]
+         Message(for:"Schiciano Foyer","Spicy Noodle Challenge", "11:00 PM")]
     
     override func viewDidLoad() {
         super.viewDidLoad()

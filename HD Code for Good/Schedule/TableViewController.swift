@@ -17,14 +17,14 @@ class TableViewController: UITableViewController {
 
     let datas: [Message] = [Message(for:"Twinnie's","Midnight Snacks", "12:00 AM"),
                             Message(for:"Hudson (222,224,232)","Nap Time", "12:00 AM"),
-                            Message(for:"Schiciano Atrium","Breakfast", "9:00 AM"),
-                            Message(for:"Hudson","Workshop 4", "11:00 AM"),
-                            Message(for:"Schiciano Atrium","Lunch", "12:00 PM"),
+                            Message(for:"Schiciano Foyer","Breakfast", "9:00 AM"),
+                            Message(for:"Hudson Hall","Workshop 4", "11:00 AM"),
+                            Message(for:"Schiciano Foyer","Lunch", "12:00 PM"),
                             Message(for:"All Participants","Hacking Ends", "1:30 PM"),
                             Message(for:"CIEMAS Lobby","First-Round Judging", "2:00 PM"),
                             Message(for:"CIEMAS Lobby","Final Demos and Judging", "2:45 PM"),
-                            Message(for:"Reynolds Theatre","Closing Ceremony", "4:30 PM"),
-                            Message(for:"Science Drive","VTech Bus Leaves", "6:00 PM")]
+                            Message(for:"Page Auditorium","Closing Ceremony", "4:30 PM"),
+                            Message(for:"Science Drive","Buses Leave", "6:00 PM")]
     
     override func viewDidLoad() {
         super.viewDidLoad()

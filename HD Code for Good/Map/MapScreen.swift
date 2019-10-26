@@ -45,8 +45,8 @@ class MapScreen: UIViewController {
     
     let annotationLocations = [
         ["title": "Chapel Drive", "latitude": 36.000481, "longitude": -78.937332],
-        ["title": "Reynolds Theatre", "latitude": 36.003171, "longitude": -78.941788],
-        ["title": "Schiciano Atrium", "latitude": 36.003448, "longitude": -78.939482],
+        ["title": "Page Auditorium", "latitude": 36.003171, "longitude": -78.941788],
+        ["title": "Schiciano Foyer", "latitude": 36.003448, "longitude": -78.939482],
         ["title": "Hudson Hall", "latitude": 36.004169, "longitude": -78.940937],
         ["title": "Perkins Library", "latitude": 36.002266, "longitude": -78.938631],
         ["title": "Harrington Quad", "latitude": 36.004548, "longitude": -78.940220],
@@ -79,33 +79,33 @@ class MapScreen: UIViewController {
      */
 }
 let datas: [Message] =
-    [Message(for: "Schiciano Atrium", "Check-In Begins", "8:00 AM"),
-     Message(for: "Reynolds Theatre", "Opening Ceremonies", "10:00 AM"),
-     Message(for: "Schiciano Atrium", "Lunch", "11:00 AM"),
-     Message(for: "Schiciano Atrium", "Team Formation Mixer", "11:00 AM"),
-     Message(for: "Harrington Quad", "Frisbee, Football, Volleyball", "12:00 PM"),
-     Message(for:"Hudson Hall","Intro to Hardware", "1:00 PM"),
-     Message(for:"Hudson Hall","VR Workshop", "2:00 PM"),
-     Message(for:"Hudson Hall","Health Track Kickoff", "3:00 PM"),
-     Message(for:"Hudson Hall","Javascript Workshop", "4:00 PM"),
-     Message(for:"Harrington Quad","Puppies!!!!!", "4:00 PM"),
-     Message(for:"Hudson Hall","API Workshop", "5:00 AM"),
-     Message(for:"Hudson Hall","Mobile Workshop", "5:00 PM"),
-     Message(for:"Schiciano Atrium","Dinner", "6:00 PM"),
-     Message(for:"Schiciano Atrium","MLH werewolf", "8:00 PM"),
-     Message(for:"Innovation Co-Lab","Mixer for Female-Identifying", "9:00 PM"),
-     Message(for:"Schiciano Atrium","Nerf War", "10:00 PM"),
-     Message(for:"Schiciano Atrium","Spicy Noodle Challenge", "11:00 PM"),
+    [Message(for:"Schiciano Foyer", "Check-In Begins", "9:00 AM"),
+     Message(for:"Page Auditorium", "Opening Ceremonies", "11:00 AM"),
+     Message(for:"Schiciano Foyer", "Track Talks", "12:30 PM"),
+     Message(for:"Schiciano Foyer", "Lunch", "1:00 PM"),
+     Message(for:"Schiciano Foyer", "Team Formation Mixer", "2:00 PM"),
+     Message(for:"Hudson Hall","Database Workshop", "2:00 PM"),
+     Message(for:"Hudson Hall","React Workshop", "3:00 PM"),
+     Message(for:"Harrington Quad","Puppies!!!!!", "3:00 PM"),
+     Message(for:"Harrington Quad","Spikeball & Frisbee", "3:00 PM"),
+     Message(for:"Hudson Hall","AR/VR Workshop", "4:00 PM"),
+     Message(for:"Innovation Co-Lab","Mixer for Female-Identifying", "6:00 PM"),
+     Message(for:"Schiciano Atrium","Dinner", "6:30 PM"),
+     Message(for:"CIEMAS 1st Floor","Pie an Organizer", "7:30 PM"),
+     Message(for:"Location TBA","WIT Mixer", "9:00 PM"),
+     Message(for:"Schiciano Foyer","MLH Minigame", "8:00 PM"),
+     Message(for:"Twinnie's Floor 2","Nerf War", "10:00 PM"),
+     Message(for:"Schiciano Foyer","Spicy Noodle Challenge", "11:00 PM"),
      Message(for:"Twinnie's","Midnight Snacks", "12:00 AM"),
-     Message(for:"Hudson Hall","Nap Time", "12:00 AM"),
-     Message(for:"Schiciano Atrium","Breakfast", "9:00 AM"),
-     Message(for:"Hudson Hall","Workshop 4", "11:00 AM"),
-     Message(for:"Schiciano Atrium","Lunch", "12:00 PM"),
+     Message(for:"Hudson (222,224,232)","Nap Time", "12:00 AM"),
+     Message(for:"Schiciano Foyer","Breakfast", "9:00 AM"),
+     Message(for:"Schiciano Foyer","Lunch", "12:00 PM"),
      Message(for:"All Participants","Hacking Ends", "1:30 PM"),
      Message(for:"CIEMAS Lobby","First-Round Judging", "2:00 PM"),
      Message(for:"CIEMAS Lobby","Final Demos and Judging", "2:45 PM"),
-     Message(for:"Reynolds Theatre","Closing Ceremony", "4:30 PM"),
-     Message(for:"Science Drive","VTech Bus Leaves", "6:00 PM")]
+     Message(for:"Page Auditorium","Closing Ceremony", "4:30 PM"),
+     Message(for:"Science Drive","Buses Leave", "6:00 PM")]
+
 
     extension MapScreen: UITableViewDataSource, UITableViewDelegate{
 
