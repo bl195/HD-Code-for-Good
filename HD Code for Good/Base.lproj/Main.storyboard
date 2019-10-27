@@ -32,47 +32,44 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="black" translatesAutoresizingMaskIntoConstraints="NO" id="AJR-wK-eMb">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="white" translatesAutoresizingMaskIntoConstraints="NO" id="AJR-wK-eMb">
                                 <rect key="frame" x="0.0" y="785" width="414" height="111"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="111" id="HR6-8V-HCK"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O2g-BT-did">
-                                <rect key="frame" x="37" y="811" width="77" height="33"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O2g-BT-did">
+                                <rect key="frame" x="59" y="811" width="24" height="33"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="33" id="tGd-ei-KXL"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="18"/>
-                                <state key="normal" title="Schedule">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="schedule">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
                                     <segue destination="9z7-V0-YtP" kind="presentation" modalTransitionStyle="crossDissolve" id="YU0-Zi-vEY"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oR2-rg-73l">
-                                <rect key="frame" x="184" y="809" width="46" height="37"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oR2-rg-73l">
+                                <rect key="frame" x="195" y="809" width="24" height="37"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="37" id="lxj-lw-RZD"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="18"/>
-                                <state key="normal" title="Maps">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="maps">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
                                     <segue destination="YVf-Xs-iQB" kind="presentation" modalTransitionStyle="crossDissolve" id="avT-jA-gDt"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k7h-dU-6z5">
-                                <rect key="frame" x="316" y="809" width="39" height="37"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k7h-dU-6z5">
+                                <rect key="frame" x="333" y="809" width="22" height="37"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="37" id="WZx-wl-WqY"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="18"/>
-                                <state key="normal" title="Help">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="help">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
                                     <segue destination="kAA-P4-Eqy" kind="presentation" modalTransitionStyle="crossDissolve" id="5qc-hg-fVH"/>
@@ -140,8 +137,8 @@
                         <constraints>
                             <constraint firstItem="mFd-vL-hkm" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="2KB-yt-QZS"/>
                             <constraint firstItem="tuA-UX-W5o" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="3DR-bx-U2B"/>
+                            <constraint firstItem="O2g-BT-did" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="59" id="4xA-pO-dzK"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="oR2-rg-73l" secondAttribute="bottom" constant="16" id="5A0-zu-R2e"/>
-                            <constraint firstItem="O2g-BT-did" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="37" id="6jd-gw-hKq"/>
                             <constraint firstItem="AJR-wK-eMb" firstAttribute="top" secondItem="mFd-vL-hkm" secondAttribute="bottom" constant="60" id="DNj-bl-CH3"/>
                             <constraint firstItem="PQ3-Jj-cC7" firstAttribute="top" secondItem="tuA-UX-W5o" secondAttribute="bottom" constant="27" id="DYb-Bu-Slb"/>
                             <constraint firstItem="btx-GN-sKr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="69" id="IK4-4K-sBY"/>
@@ -339,7 +336,7 @@
                             <outlet property="delegate" destination="8v9-BZ-zlL" id="Nkh-eS-DMh"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Sunday, Day 2" image="icons8-sunday-30 (1)" id="0OK-Q2-gjL"/>
+                    <tabBarItem key="tabBarItem" title="Sunday" image="icons8-sunday-30 (1)" id="0OK-Q2-gjL"/>
                     <navigationItem key="navigationItem" id="xPa-Qq-lm3"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Om2-Kd-Hle" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -551,6 +548,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jc8-cf-diF">
                                                 <rect key="frame" x="251" y="263" width="111" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" title="(410) 428-2378"/>
                                                 <connections>
                                                     <action selector="samcell:" destination="kAA-P4-Eqy" eventType="touchUpInside" id="vAm-Th-t4k"/>
@@ -973,7 +971,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="hGk-Cx-0QP"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="24"/>
+                                <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1290,7 +1288,7 @@
                             <outlet property="delegate" destination="BFP-Wc-e92" id="eVa-0L-9yn"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Saturday, Day 1" image="icons8-saturday-30" id="dQb-uM-vFn"/>
+                    <tabBarItem key="tabBarItem" title="Saturday" image="icons8-saturday-30" id="dQb-uM-vFn"/>
                     <navigationItem key="navigationItem" id="TX7-L9-h5x"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Od-3E-g5v" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1300,12 +1298,15 @@
     </scenes>
     <resources>
         <image name="Screen Shot 2019-08-26 at 9.09.21 PM" width="315" height="582"/>
-        <image name="black" width="1200" height="600"/>
         <image name="hd_hourglass" width="419" height="960"/>
+        <image name="help" width="22" height="22"/>
         <image name="icons8-saturday-30" width="30" height="30"/>
         <image name="icons8-sunday-30 (1)" width="30" height="30"/>
+        <image name="maps" width="24" height="24"/>
+        <image name="schedule" width="24" height="24"/>
+        <image name="white" width="275" height="183"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="cRH-4v-IDn"/>
+        <segue reference="YuR-cJ-K1t"/>
     </inferredMetricsTieBreakers>
 </document>
