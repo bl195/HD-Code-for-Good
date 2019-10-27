@@ -10,6 +10,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="Cabin-Regular.ttf">
+            <string>Cabin-Regular</string>
+        </array>
         <array key="Cabin-SemiBold.ttf">
             <string>Cabin-SemiBold</string>
         </array>
@@ -196,7 +199,7 @@
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Day 2 - Sunday" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vB4-ng-p3J">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
-                                    <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="24"/>
+                                    <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="24"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
@@ -376,19 +379,16 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eXn-hE-yNh" userLabel="contentview">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2fe-4Z-JdG">
-                                                <rect key="frame" x="-58" y="-121" width="553" height="1262"/>
-                                            </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wLx-W1-w86">
                                                 <rect key="frame" x="22" y="106" width="370" height="114"/>
-                                                <color key="backgroundColor" red="0.98792773485183716" green="0.90928632020950317" blue="0.84169083833694458" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agW-sH-dNW">
                                                 <rect key="frame" x="22" y="228" width="370" height="179"/>
-                                                <color key="backgroundColor" red="0.98792773485183716" green="0.90928632020950317" blue="0.84169083833694458" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -456,7 +456,7 @@
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5uB-Bp-w1y">
                                                 <rect key="frame" x="22" y="416" width="370" height="569"/>
-                                                <color key="backgroundColor" red="0.98792773485183716" green="0.90928632020950317" blue="0.84169083833694458" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -500,34 +500,34 @@
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UIZ-TF-TVU">
                                                 <rect key="frame" x="33" y="486" width="348" height="83"/>
-                                                <color key="backgroundColor" red="0.98853403329849243" green="0.91282552480697632" blue="0.84191209077835083" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <string key="text">The grand prizes are donations under your name to charities and causes! There will be grand prize winners for each track, novice track and many other company sponsored API prizes as well.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hOR-PG-tOr">
                                                 <rect key="frame" x="33" y="597" width="348" height="85"/>
-                                                <color key="backgroundColor" red="0.98792773485183716" green="0.90928632020950317" blue="0.84169083833694458" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <string key="text">HackDuke starts Saturday, Nov 2nd at 9:00 AM and ends on Sunday, Nov 3rd at 5:30 PM. It is hosted on Duke University's West Campus, in and around the Fitzpatrick Engineering Building.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zwr-rI-iGW">
                                                 <rect key="frame" x="33" y="712" width="348" height="81"/>
-                                                <color key="backgroundColor" red="0.98792773485183716" green="0.90928632020950317" blue="0.84169083833694458" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <string key="text">Anyone! Get to know your fellow programmers better from your own and other schools! The only request is that you make a new friend by talking to each other, our mentors and our experts!</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Bring your own ethernet cables (or you can just use WiFi) and bring any Nerf gun arsenal you have!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="igg-yH-zBY">
                                                 <rect key="frame" x="33" y="830" width="348" height="52"/>
-                                                <color key="backgroundColor" red="0.98792773485183716" green="0.90928632020950317" blue="0.84169083833694458" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nKY-N8-agL">
                                                 <rect key="frame" x="33" y="910" width="348" height="63"/>
-                                                <color key="backgroundColor" red="0.98792773485183716" green="0.90928632020950317" blue="0.84169083833694458" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <string key="text">We welcome all software and hardware hacks that align to our tracks for impact. We will also have lab space for hardware hackers.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -536,7 +536,7 @@
                                                 <rect key="frame" x="20" y="48" width="40" height="36"/>
                                                 <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="18"/>
                                                 <state key="normal" title="Back">
-                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="BYZ-38-t0r" kind="presentation" modalTransitionStyle="crossDissolve" id="YuR-cJ-K1t"/>
@@ -580,11 +580,10 @@
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" red="0.0" green="0.6220173663996178" blue="0.63388477452690362" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="ikk-pk-FgA" secondAttribute="bottom" constant="798" id="0Ie-uB-Ijb"/>
                                             <constraint firstItem="33Y-EZ-uF5" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="565" id="1eh-oi-AuF"/>
-                                            <constraint firstAttribute="bottom" secondItem="2fe-4Z-JdG" secondAttribute="bottom" constant="-141" id="2dn-5n-BeZ"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="dXH-1b-dSS" secondAttribute="trailing" constant="20" symbolic="YES" id="2qh-OL-XXP"/>
                                             <constraint firstItem="hOR-PG-tOr" firstAttribute="leading" secondItem="eXn-hE-yNh" secondAttribute="leading" constant="33" id="34S-yf-awk"/>
                                             <constraint firstItem="f6c-TH-Dmf" firstAttribute="leading" secondItem="eXn-hE-yNh" secondAttribute="leading" constant="36" id="3Ad-OE-m4p"/>
@@ -630,11 +629,9 @@
                                             <constraint firstItem="dXH-1b-dSS" firstAttribute="leading" secondItem="eXn-hE-yNh" secondAttribute="leading" constant="36" id="M9u-DF-93R"/>
                                             <constraint firstItem="BOV-UE-jGT" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="239" id="MsK-HO-OEP"/>
                                             <constraint firstItem="hG5-vo-9eN" firstAttribute="leading" secondItem="eXn-hE-yNh" secondAttribute="leading" constant="38" id="N2J-Sz-1ma"/>
-                                            <constraint firstItem="2fe-4Z-JdG" firstAttribute="leading" secondItem="eXn-hE-yNh" secondAttribute="leading" constant="-58" id="N2T-p8-YOw"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="7gk-WF-k57" secondAttribute="trailing" constant="20" symbolic="YES" id="NGB-1e-dzF"/>
                                             <constraint firstAttribute="bottom" secondItem="QUj-7O-7tr" secondAttribute="bottom" constant="916" id="PAd-JM-XbE"/>
                                             <constraint firstItem="agW-sH-dNW" firstAttribute="leading" secondItem="eXn-hE-yNh" secondAttribute="leading" constant="22" id="PyN-Uq-Ukf"/>
-                                            <constraint firstAttribute="trailing" secondItem="2fe-4Z-JdG" secondAttribute="trailing" constant="-81" id="Q24-CL-ARi"/>
                                             <constraint firstAttribute="trailing" secondItem="UIZ-TF-TVU" secondAttribute="trailing" constant="33" id="Q2h-uc-wnw"/>
                                             <constraint firstItem="nKY-N8-agL" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="910" id="QTK-4x-LYa"/>
                                             <constraint firstAttribute="trailing" secondItem="agW-sH-dNW" secondAttribute="trailing" constant="22" id="QY1-LP-wuv"/>
@@ -663,7 +660,6 @@
                                             <constraint firstItem="ikk-pk-FgA" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="181" id="bLb-1d-4qq"/>
                                             <constraint firstItem="agW-sH-dNW" firstAttribute="top" secondItem="wLx-W1-w86" secondAttribute="bottom" constant="8" id="c4l-JX-18C"/>
                                             <constraint firstItem="igg-yH-zBY" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="830" id="eCt-Y2-llu"/>
-                                            <constraint firstItem="2fe-4Z-JdG" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="-121" id="eLP-rE-dPW"/>
                                             <constraint firstItem="7gk-WF-k57" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="456" id="eb5-jm-wY2"/>
                                             <constraint firstAttribute="bottom" secondItem="BOV-UE-jGT" secondAttribute="bottom" constant="740" id="evC-La-wRu"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="rMP-wp-2Bt" secondAttribute="trailing" constant="20" symbolic="YES" id="fti-wC-2HE"/>
@@ -706,9 +702,9 @@
                                         </constraints>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Help" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tbn-OE-UP3">
-                                        <rect key="frame" x="178.5" y="52" width="57.5" height="29.5"/>
-                                        <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="24"/>
-                                        <nil key="textColor"/>
+                                        <rect key="frame" x="181" y="52" width="52" height="32"/>
+                                        <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="26"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -727,7 +723,6 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="h9g-e3-E77" firstAttribute="leading" secondItem="uxs-oh-G0R" secondAttribute="leading" id="4hc-M1-rfn"/>
                             <constraint firstItem="wLx-W1-w86" firstAttribute="centerX" secondItem="uxs-oh-G0R" secondAttribute="centerX" id="Non-gk-drp"/>
@@ -752,17 +747,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2019-08-26 at 9.09.21 PM" translatesAutoresizingMaskIntoConstraints="NO" id="7qj-zu-IPZ">
-                                <rect key="frame" x="-47" y="-125" width="520" height="1170"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Map" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5wC-di-8Uz">
-                                <rect key="frame" x="173.5" y="95" width="67.5" height="35"/>
+                                <rect key="frame" x="179.5" y="95" width="55.5" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="UDX-qS-H0Q"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="30"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ygu-hO-CYz">
@@ -779,8 +770,8 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="29.5" id="y3B-9a-eGb"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="24"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O8u-J5-Dv7">
@@ -790,7 +781,7 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="18"/>
                                 <state key="normal" title="Back">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalTransitionStyle="crossDissolve" id="5Yj-pe-Zlf"/>
@@ -1166,7 +1157,7 @@
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Day 1 - Saturday" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ou-JH-ZDx">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
-                                    <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="24"/>
+                                    <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="24"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
