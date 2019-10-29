@@ -56,7 +56,6 @@ class MenuViewController: UIViewController {
         )
     }
     
-    
     override func viewDidLoad() {
         var bgcolor = hexStringToUIColor(hex: "#FFD38D")
         self.view.backgroundColor = bgcolor

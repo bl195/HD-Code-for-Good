@@ -454,6 +454,10 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5uB-Bp-w1y">
                                                 <rect key="frame" x="22" y="416" width="370" height="569"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                                                    <bool key="isElement" value="NO"/>
+                                                </accessibility>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -478,7 +482,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What to Bring?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ohW-rL-8p4">
-                                                <rect key="frame" x="38" y="793" width="106" height="37"/>
+                                                <rect key="frame" x="38" y="782" width="106" height="37"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -490,41 +494,61 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What can I make?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nbD-xL-v4E">
-                                                <rect key="frame" x="38" y="882" width="125.5" height="37"/>
+                                                <rect key="frame" x="38" y="874" width="125.5" height="37"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UIZ-TF-TVU">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" bouncesZoom="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UIZ-TF-TVU">
                                                 <rect key="frame" x="33" y="486" width="348" height="83"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                                    <bool key="isElement" value="NO"/>
+                                                </accessibility>
                                                 <string key="text">The grand prizes are donations under your name to charities and causes! There will be grand prize winners for each track, novice track and many other company sponsored API prizes as well.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hOR-PG-tOr">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" bouncesZoom="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hOR-PG-tOr">
                                                 <rect key="frame" x="33" y="597" width="348" height="85"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                                    <bool key="isElement" value="NO"/>
+                                                </accessibility>
                                                 <string key="text">HackDuke starts Saturday, Nov 2nd at 9:00 AM and ends on Sunday, Nov 3rd at 5:30 PM. It is hosted on Duke University's West Campus, in and around the Fitzpatrick Engineering Building.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zwr-rI-iGW">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zwr-rI-iGW">
                                                 <rect key="frame" x="33" y="712" width="348" height="81"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                                    <bool key="isElement" value="NO"/>
+                                                </accessibility>
                                                 <string key="text">Anyone! Get to know your fellow programmers better from your own and other schools! The only request is that you make a new friend by talking to each other, our mentors and our experts!</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Bring your own ethernet cables (or you can just use WiFi) and bring any Nerf gun arsenal you have!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="igg-yH-zBY">
-                                                <rect key="frame" x="33" y="830" width="348" height="52"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Bring your own ethernet cables (or you can just use WiFi) and bring any Nerf gun arsenal you have!" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="igg-yH-zBY">
+                                                <rect key="frame" x="33" y="818" width="348" height="52"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                                    <bool key="isElement" value="NO"/>
+                                                </accessibility>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nKY-N8-agL">
-                                                <rect key="frame" x="33" y="910" width="348" height="63"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nKY-N8-agL">
+                                                <rect key="frame" x="33" y="909" width="348" height="63"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                                    <bool key="isElement" value="NO"/>
+                                                </accessibility>
                                                 <string key="text">We welcome all software and hardware hacks that align to our tracks for impact. We will also have lab space for hardware hackers.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -591,12 +615,12 @@
                                             <constraint firstAttribute="bottom" secondItem="47o-03-zks" secondAttribute="bottom" constant="640" id="4BT-Ed-yMX"/>
                                             <constraint firstItem="rMP-wp-2Bt" firstAttribute="leading" secondItem="eXn-hE-yNh" secondAttribute="leading" constant="40" id="5K7-8l-Zx7"/>
                                             <constraint firstAttribute="trailing" secondItem="jc8-cf-diF" secondAttribute="trailing" constant="52" id="5Sg-jV-rrF"/>
-                                            <constraint firstAttribute="bottom" secondItem="nbD-xL-v4E" secondAttribute="bottom" constant="81" id="636-SA-eug"/>
+                                            <constraint firstAttribute="bottom" secondItem="nbD-xL-v4E" secondAttribute="bottom" constant="89" id="636-SA-eug"/>
                                             <constraint firstItem="ikk-pk-FgA" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="eXn-hE-yNh" secondAttribute="leading" constant="20" symbolic="YES" id="6CY-7w-NiM"/>
                                             <constraint firstItem="g3W-PN-7Cc" firstAttribute="top" secondItem="SZE-q1-Fw8" secondAttribute="bottom" constant="3" id="6vT-Fu-W4x"/>
                                             <constraint firstItem="Cpq-JC-ed5" firstAttribute="leading" secondItem="eXn-hE-yNh" secondAttribute="leading" constant="40" id="6xb-g4-c3u"/>
                                             <constraint firstItem="7gk-WF-k57" firstAttribute="leading" secondItem="eXn-hE-yNh" secondAttribute="leading" constant="38" id="7b1-Eh-nMp"/>
-                                            <constraint firstItem="nbD-xL-v4E" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="882" id="8gW-xe-PE0"/>
+                                            <constraint firstItem="nbD-xL-v4E" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="874" id="8gW-xe-PE0"/>
                                             <constraint firstAttribute="bottom" secondItem="Xyu-rL-wbg" secondAttribute="bottom" constant="671" id="9eC-yl-ah0"/>
                                             <constraint firstItem="g3W-PN-7Cc" firstAttribute="leading" relation="lessThanOrEqual" secondItem="47o-03-zks" secondAttribute="trailing" constant="106.5" id="9xM-7T-iaF"/>
                                             <constraint firstAttribute="trailing" secondItem="g3W-PN-7Cc" secondAttribute="trailing" constant="50" id="A1i-qC-A3s"/>
@@ -617,8 +641,8 @@
                                             <constraint firstItem="L8c-rk-J8u" firstAttribute="top" secondItem="g3W-PN-7Cc" secondAttribute="bottom" constant="1" id="GzU-dx-2Ou"/>
                                             <constraint firstAttribute="trailing" secondItem="5uB-Bp-w1y" secondAttribute="trailing" constant="22" id="H0Y-la-sZB"/>
                                             <constraint firstItem="5uB-Bp-w1y" firstAttribute="top" secondItem="L8c-rk-J8u" secondAttribute="bottom" constant="31" id="H1U-tt-hIS"/>
-                                            <constraint firstAttribute="bottom" secondItem="nKY-N8-agL" secondAttribute="bottom" constant="27" id="IR1-6Y-M7M"/>
-                                            <constraint firstItem="ohW-rL-8p4" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="793" id="JUu-La-v0X"/>
+                                            <constraint firstAttribute="bottom" secondItem="nKY-N8-agL" secondAttribute="bottom" constant="28" id="IR1-6Y-M7M"/>
+                                            <constraint firstItem="ohW-rL-8p4" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="782" id="JUu-La-v0X"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ohW-rL-8p4" secondAttribute="trailing" constant="20" symbolic="YES" id="KEk-AE-60n"/>
                                             <constraint firstAttribute="bottom" secondItem="f6c-TH-Dmf" secondAttribute="bottom" constant="703" id="KwM-fO-H5d"/>
                                             <constraint firstItem="5uB-Bp-w1y" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="416" id="LCe-mS-XL5"/>
@@ -631,7 +655,7 @@
                                             <constraint firstAttribute="bottom" secondItem="QUj-7O-7tr" secondAttribute="bottom" constant="916" id="PAd-JM-XbE"/>
                                             <constraint firstItem="agW-sH-dNW" firstAttribute="leading" secondItem="eXn-hE-yNh" secondAttribute="leading" constant="22" id="PyN-Uq-Ukf"/>
                                             <constraint firstAttribute="trailing" secondItem="UIZ-TF-TVU" secondAttribute="trailing" constant="33" id="Q2h-uc-wnw"/>
-                                            <constraint firstItem="nKY-N8-agL" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="910" id="QTK-4x-LYa"/>
+                                            <constraint firstItem="nKY-N8-agL" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="909" id="QTK-4x-LYa"/>
                                             <constraint firstAttribute="trailing" secondItem="agW-sH-dNW" secondAttribute="trailing" constant="22" id="QY1-LP-wuv"/>
                                             <constraint firstItem="L8c-rk-J8u" firstAttribute="leading" relation="lessThanOrEqual" secondItem="dXH-1b-dSS" secondAttribute="trailing" constant="56.5" id="QnY-ug-WNv"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="f6c-TH-Dmf" secondAttribute="trailing" constant="20" symbolic="YES" id="QvX-T0-Sut"/>
@@ -657,11 +681,11 @@
                                             <constraint firstItem="7Fc-68-OgD" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="145" id="b0i-pp-cp6"/>
                                             <constraint firstItem="ikk-pk-FgA" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="181" id="bLb-1d-4qq"/>
                                             <constraint firstItem="agW-sH-dNW" firstAttribute="top" secondItem="wLx-W1-w86" secondAttribute="bottom" constant="8" id="c4l-JX-18C"/>
-                                            <constraint firstItem="igg-yH-zBY" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="830" id="eCt-Y2-llu"/>
+                                            <constraint firstItem="igg-yH-zBY" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="818" id="eCt-Y2-llu"/>
                                             <constraint firstItem="7gk-WF-k57" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="456" id="eb5-jm-wY2"/>
                                             <constraint firstAttribute="bottom" secondItem="BOV-UE-jGT" secondAttribute="bottom" constant="740" id="evC-La-wRu"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="rMP-wp-2Bt" secondAttribute="trailing" constant="20" symbolic="YES" id="fti-wC-2HE"/>
-                                            <constraint firstAttribute="bottom" secondItem="ohW-rL-8p4" secondAttribute="bottom" constant="170" id="gCZ-sr-Bk5"/>
+                                            <constraint firstAttribute="bottom" secondItem="ohW-rL-8p4" secondAttribute="bottom" constant="181" id="gCZ-sr-Bk5"/>
                                             <constraint firstItem="QUj-7O-7tr" firstAttribute="leading" secondItem="eXn-hE-yNh" secondAttribute="leading" constant="20" symbolic="YES" id="gpU-tQ-fuK"/>
                                             <constraint firstItem="jc8-cf-diF" firstAttribute="top" secondItem="wLx-W1-w86" secondAttribute="bottom" constant="43" id="hgM-OB-HZl"/>
                                             <constraint firstAttribute="bottom" secondItem="hG5-vo-9eN" secondAttribute="bottom" constant="294" id="hi9-rg-bdA"/>
@@ -687,7 +711,7 @@
                                             <constraint firstAttribute="trailing" secondItem="ikk-pk-FgA" secondAttribute="trailing" constant="64" id="uiJ-Y5-f2r"/>
                                             <constraint firstItem="jc8-cf-diF" firstAttribute="leading" relation="lessThanOrEqual" secondItem="f6c-TH-Dmf" secondAttribute="trailing" constant="80" id="vNU-Su-WP4"/>
                                             <constraint firstItem="ikk-pk-FgA" firstAttribute="top" secondItem="7Fc-68-OgD" secondAttribute="bottom" constant="6" id="w9h-3Y-vEU"/>
-                                            <constraint firstAttribute="bottom" secondItem="igg-yH-zBY" secondAttribute="bottom" constant="118" id="wiC-gj-Yr5"/>
+                                            <constraint firstAttribute="bottom" secondItem="igg-yH-zBY" secondAttribute="bottom" constant="130" id="wiC-gj-Yr5"/>
                                             <constraint firstItem="SZE-q1-Fw8" firstAttribute="top" secondItem="jc8-cf-diF" secondAttribute="bottom" constant="2" id="xpI-yt-8o5"/>
                                             <constraint firstItem="SZE-q1-Fw8" firstAttribute="top" secondItem="jc8-cf-diF" secondAttribute="bottom" constant="2" id="xvD-Sn-4gp"/>
                                             <constraint firstAttribute="trailing" secondItem="wLx-W1-w86" secondAttribute="trailing" constant="22" id="yXH-DC-56z"/>
