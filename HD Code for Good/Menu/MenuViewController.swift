@@ -11,7 +11,7 @@ class MenuViewController: UIViewController {
             year: 2019,
             month: 11,
             day: 2,
-            hour: 0,
+            hour: 11,
             minute: 0,
             second: 0
         )
@@ -32,6 +32,18 @@ class MenuViewController: UIViewController {
         dateLabel.text = String(format: "%02d Days  %02d Hours  %02d Min  %02d Sec", days, hours, minutes, seconds)
     }
 
+    
+    @IBAction func checkin(_ sender: Any) {
+        
+        if let url = URL(string: "") {
+            if UIApplication.shared.canOpenURL(url) {
+                UIApplication.shared.open(url, options: [:])
+            }
+        }
+    }
+    
+    
+    
     @IBOutlet weak var checkedinlabel: UILabel!
     
     func hexStringToUIColor (hex:String) -> UIColor {
