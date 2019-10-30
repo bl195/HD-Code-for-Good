@@ -35,7 +35,7 @@ class MenuViewController: UIViewController {
     
     @IBAction func checkin(_ sender: Any) {
         
-        if let url = URL(string: "") {
+        if let url = URL(string: "https://hackduke.typeform.com/to/vwGW81") {
             if UIApplication.shared.canOpenURL(url) {
                 UIApplication.shared.open(url, options: [:])
             }
