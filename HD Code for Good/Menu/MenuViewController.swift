@@ -29,7 +29,12 @@ class MenuViewController: UIViewController {
         let hours = countdown.hour!
         let minutes = countdown.minute!
         let seconds = countdown.second!
+        if(seconds > -1){
         dateLabel.text = String(format: "%02d Days  %02d Hours  %02d Min  %02d Sec", days, hours, minutes, seconds)
+        }
+        else{
+            dateLabel.text = String("Code for Good has started!")
+        }
     }
 
     

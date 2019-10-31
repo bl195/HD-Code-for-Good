@@ -506,7 +506,7 @@
                                                     <accessibilityTraits key="traits" notEnabled="YES"/>
                                                     <bool key="isElement" value="NO"/>
                                                 </accessibility>
-                                                <string key="text">The grand prizes are donations under your name to charities and causes! There will be grand prize winners for each track, novice track and many other company sponsored API prizes as well.</string>
+                                                <string key="text">The grand prizes are donations under your name to charities and causes! There will be grand prize winners for each track, novice track and many other company prizes.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
@@ -517,7 +517,7 @@
                                                     <accessibilityTraits key="traits" notEnabled="YES"/>
                                                     <bool key="isElement" value="NO"/>
                                                 </accessibility>
-                                                <string key="text">HackDuke starts Saturday, Nov 2nd at 9:00 AM and ends on Sunday, Nov 3rd at 5:30 PM. It is hosted on Duke University's West Campus, in and around the Fitzpatrick Engineering Building.</string>
+                                                <string key="text">HackDuke starts Nov 2nd at 9:00 AM and ends on Nov 3rd at 5:30 PM. It is hosted on Duke University's West Campus, in and around the Fitzpatrick Engineering Building.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
@@ -532,8 +532,8 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Bring your own ethernet cables (or you can just use WiFi) and bring any Nerf gun arsenal you have!" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="igg-yH-zBY">
-                                                <rect key="frame" x="33" y="818" width="348" height="52"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Bring your own ethernet cables (or you can just use WiFi) and bring any Nerf gun!" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="igg-yH-zBY">
+                                                <rect key="frame" x="33" y="818" width="348" height="59"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <accessibility key="accessibilityConfiguration">
                                                     <accessibilityTraits key="traits" notEnabled="YES"/>
@@ -552,8 +552,8 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QUj-7O-7tr">
-                                                <rect key="frame" x="22" y="48" width="40" height="36"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QUj-7O-7tr">
+                                                <rect key="frame" x="22" y="52" width="40" height="36"/>
                                                 <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="18"/>
                                                 <state key="normal" title="Back">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -600,8 +600,8 @@
                                                     <action selector="devpost:" destination="kAA-P4-Eqy" eventType="touchUpInside" id="CiX-7H-W3G"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Puy-qS-xPE">
-                                                <rect key="frame" x="332" y="48" width="60" height="36"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Puy-qS-xPE">
+                                                <rect key="frame" x="330" y="52" width="60" height="36"/>
                                                 <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="18"/>
                                                 <state key="normal" title="Privacy">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -615,7 +615,7 @@
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="ikk-pk-FgA" secondAttribute="bottom" constant="798" id="0Ie-uB-Ijb"/>
                                             <constraint firstItem="33Y-EZ-uF5" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="565" id="1eh-oi-AuF"/>
-                                            <constraint firstAttribute="trailing" secondItem="Puy-qS-xPE" secondAttribute="trailing" constant="22" id="29y-Ln-EnV"/>
+                                            <constraint firstAttribute="trailing" secondItem="Puy-qS-xPE" secondAttribute="trailing" constant="24" id="2eC-9f-Qz4"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="dXH-1b-dSS" secondAttribute="trailing" constant="20" symbolic="YES" id="2qh-OL-XXP"/>
                                             <constraint firstItem="hOR-PG-tOr" firstAttribute="leading" secondItem="eXn-hE-yNh" secondAttribute="leading" constant="33" id="34S-yf-awk"/>
                                             <constraint firstItem="f6c-TH-Dmf" firstAttribute="leading" secondItem="eXn-hE-yNh" secondAttribute="leading" constant="36" id="3Ad-OE-m4p"/>
@@ -663,7 +663,7 @@
                                             <constraint firstItem="BOV-UE-jGT" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="239" id="MsK-HO-OEP"/>
                                             <constraint firstItem="hG5-vo-9eN" firstAttribute="leading" secondItem="eXn-hE-yNh" secondAttribute="leading" constant="38" id="N2J-Sz-1ma"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="7gk-WF-k57" secondAttribute="trailing" constant="20" symbolic="YES" id="NGB-1e-dzF"/>
-                                            <constraint firstAttribute="bottom" secondItem="QUj-7O-7tr" secondAttribute="bottom" constant="916" id="PAd-JM-XbE"/>
+                                            <constraint firstAttribute="bottom" secondItem="QUj-7O-7tr" secondAttribute="bottom" constant="914" id="PAd-JM-XbE"/>
                                             <constraint firstItem="agW-sH-dNW" firstAttribute="leading" secondItem="eXn-hE-yNh" secondAttribute="leading" constant="22" id="PyN-Uq-Ukf"/>
                                             <constraint firstAttribute="trailing" secondItem="UIZ-TF-TVU" secondAttribute="trailing" constant="33" id="Q2h-uc-wnw"/>
                                             <constraint firstItem="nKY-N8-agL" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="909" id="QTK-4x-LYa"/>
@@ -679,7 +679,7 @@
                                             <constraint firstAttribute="bottom" secondItem="dXH-1b-dSS" secondAttribute="bottom" constant="609" id="UvL-s2-XrY"/>
                                             <constraint firstItem="sKV-BT-PYe" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="359" id="V3W-aO-Bob"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="BOV-UE-jGT" secondAttribute="trailing" symbolic="YES" id="VLh-ma-iHN"/>
-                                            <constraint firstItem="wLx-W1-w86" firstAttribute="top" secondItem="Puy-qS-xPE" secondAttribute="bottom" constant="22" id="XH2-4q-mNi"/>
+                                            <constraint firstItem="wLx-W1-w86" firstAttribute="top" secondItem="Puy-qS-xPE" secondAttribute="bottom" constant="20" id="XH2-4q-mNi"/>
                                             <constraint firstItem="33Y-EZ-uF5" firstAttribute="leading" secondItem="eXn-hE-yNh" secondAttribute="leading" constant="38" id="XLN-2p-CaG"/>
                                             <constraint firstAttribute="bottom" secondItem="hOR-PG-tOr" secondAttribute="bottom" constant="318" id="XiV-1F-uqT"/>
                                             <constraint firstItem="zwr-rI-iGW" firstAttribute="leading" secondItem="eXn-hE-yNh" secondAttribute="leading" constant="33" id="XvK-IF-Mmt"/>
@@ -696,7 +696,7 @@
                                             <constraint firstItem="igg-yH-zBY" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="818" id="eCt-Y2-llu"/>
                                             <constraint firstItem="7gk-WF-k57" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="456" id="eb5-jm-wY2"/>
                                             <constraint firstAttribute="bottom" secondItem="BOV-UE-jGT" secondAttribute="bottom" constant="740" id="evC-La-wRu"/>
-                                            <constraint firstItem="Puy-qS-xPE" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="48" id="fSz-fR-imr"/>
+                                            <constraint firstItem="Puy-qS-xPE" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="50" id="fSz-fR-imr"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="rMP-wp-2Bt" secondAttribute="trailing" constant="20" symbolic="YES" id="fti-wC-2HE"/>
                                             <constraint firstAttribute="bottom" secondItem="ohW-rL-8p4" secondAttribute="bottom" constant="181" id="gCZ-sr-Bk5"/>
                                             <constraint firstItem="jc8-cf-diF" firstAttribute="top" secondItem="wLx-W1-w86" secondAttribute="bottom" constant="43" id="hgM-OB-HZl"/>
@@ -716,7 +716,7 @@
                                             <constraint firstItem="rMP-wp-2Bt" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="142" id="r5s-Pr-YrE"/>
                                             <constraint firstItem="5uB-Bp-w1y" firstAttribute="top" secondItem="agW-sH-dNW" secondAttribute="bottom" constant="9" id="rCM-NI-ZuQ"/>
                                             <constraint firstItem="Mer-3f-LWt" firstAttribute="leading" secondItem="eXn-hE-yNh" secondAttribute="leading" constant="40" id="soC-WQ-dcM"/>
-                                            <constraint firstItem="QUj-7O-7tr" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="48" id="tKB-qg-5Ax"/>
+                                            <constraint firstItem="QUj-7O-7tr" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="50" id="tKB-qg-5Ax"/>
                                             <constraint firstAttribute="trailing" secondItem="nKY-N8-agL" secondAttribute="trailing" constant="33" id="tLo-Bb-qI9"/>
                                             <constraint firstItem="sKV-BT-PYe" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="eXn-hE-yNh" secondAttribute="leading" constant="20" symbolic="YES" id="tNS-Hk-RSS"/>
                                             <constraint firstItem="47o-03-zks" firstAttribute="leading" secondItem="eXn-hE-yNh" secondAttribute="leading" constant="36" id="tTg-L9-0RO"/>
@@ -724,7 +724,7 @@
                                             <constraint firstAttribute="trailing" secondItem="ikk-pk-FgA" secondAttribute="trailing" constant="64" id="uiJ-Y5-f2r"/>
                                             <constraint firstItem="jc8-cf-diF" firstAttribute="leading" relation="lessThanOrEqual" secondItem="f6c-TH-Dmf" secondAttribute="trailing" constant="80" id="vNU-Su-WP4"/>
                                             <constraint firstItem="ikk-pk-FgA" firstAttribute="top" secondItem="7Fc-68-OgD" secondAttribute="bottom" constant="6" id="w9h-3Y-vEU"/>
-                                            <constraint firstAttribute="bottom" secondItem="igg-yH-zBY" secondAttribute="bottom" constant="130" id="wiC-gj-Yr5"/>
+                                            <constraint firstAttribute="bottom" secondItem="igg-yH-zBY" secondAttribute="bottom" constant="123" id="wiC-gj-Yr5"/>
                                             <constraint firstItem="SZE-q1-Fw8" firstAttribute="top" secondItem="jc8-cf-diF" secondAttribute="bottom" constant="2" id="xpI-yt-8o5"/>
                                             <constraint firstItem="SZE-q1-Fw8" firstAttribute="top" secondItem="jc8-cf-diF" secondAttribute="bottom" constant="2" id="xvD-Sn-4gp"/>
                                             <constraint firstAttribute="trailing" secondItem="wLx-W1-w86" secondAttribute="trailing" constant="22" id="yXH-DC-56z"/>

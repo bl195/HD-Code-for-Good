@@ -93,7 +93,7 @@ let datas: [Message] =
      Message(for:"Harrington Quad","Spikeball & Frisbee", "3:00 PM"),
      Message(for:"Hudson Hall","AR/VR Workshop", "4:00 PM"),
      Message(for:"Innovation Co-Lab","Mixer for Female-Identifying", "6:00 PM"),
-     Message(for:"Schiciano Atrium","Dinner", "6:30 PM"),
+     Message(for:"Schiciano Foyer","Dinner", "6:30 PM"),
      Message(for:"CIEMAS 1st Floor","Pie an Organizer", "7:30 PM"),
      Message(for:"Location TBA","WIT Mixer", "9:00 PM"),
      Message(for:"Schiciano Foyer","MLH Minigame", "8:00 PM"),
