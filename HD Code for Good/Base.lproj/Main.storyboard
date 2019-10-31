@@ -528,7 +528,7 @@
                                                     <accessibilityTraits key="traits" notEnabled="YES"/>
                                                     <bool key="isElement" value="NO"/>
                                                 </accessibility>
-                                                <string key="text">Anyone! Get to know your fellow programmers better from your own and other schools! The only request is that you make a new friend by talking to each other, our mentors and our experts!</string>
+                                                <string key="text">Anyone! Get to know your fellow programmers better from your own and other schools! The only request is that you make a new friend!</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
@@ -542,19 +542,18 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nKY-N8-agL">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="We welcome all software and hardware hacks that align to our tracks for impact!" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nKY-N8-agL">
                                                 <rect key="frame" x="33" y="909" width="348" height="63"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <accessibility key="accessibilityConfiguration">
                                                     <accessibilityTraits key="traits" notEnabled="YES"/>
                                                     <bool key="isElement" value="NO"/>
                                                 </accessibility>
-                                                <string key="text">We welcome all software and hardware hacks that align to our tracks for impact. We will also have lab space for hardware hackers.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QUj-7O-7tr">
-                                                <rect key="frame" x="20" y="48" width="40" height="36"/>
+                                                <rect key="frame" x="22" y="48" width="40" height="36"/>
                                                 <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="18"/>
                                                 <state key="normal" title="Back">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -601,11 +600,22 @@
                                                     <action selector="devpost:" destination="kAA-P4-Eqy" eventType="touchUpInside" id="CiX-7H-W3G"/>
                                                 </connections>
                                             </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Puy-qS-xPE">
+                                                <rect key="frame" x="332" y="48" width="60" height="36"/>
+                                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="18"/>
+                                                <state key="normal" title="Privacy">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="Privacy:" destination="kAA-P4-Eqy" eventType="touchUpInside" id="Ig9-pn-c9X"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.0" green="0.6220173663996178" blue="0.63388477452690362" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="ikk-pk-FgA" secondAttribute="bottom" constant="798" id="0Ie-uB-Ijb"/>
                                             <constraint firstItem="33Y-EZ-uF5" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="565" id="1eh-oi-AuF"/>
+                                            <constraint firstAttribute="trailing" secondItem="Puy-qS-xPE" secondAttribute="trailing" constant="22" id="29y-Ln-EnV"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="dXH-1b-dSS" secondAttribute="trailing" constant="20" symbolic="YES" id="2qh-OL-XXP"/>
                                             <constraint firstItem="hOR-PG-tOr" firstAttribute="leading" secondItem="eXn-hE-yNh" secondAttribute="leading" constant="33" id="34S-yf-awk"/>
                                             <constraint firstItem="f6c-TH-Dmf" firstAttribute="leading" secondItem="eXn-hE-yNh" secondAttribute="leading" constant="36" id="3Ad-OE-m4p"/>
@@ -621,6 +631,7 @@
                                             <constraint firstItem="Cpq-JC-ed5" firstAttribute="leading" secondItem="eXn-hE-yNh" secondAttribute="leading" constant="40" id="6xb-g4-c3u"/>
                                             <constraint firstItem="7gk-WF-k57" firstAttribute="leading" secondItem="eXn-hE-yNh" secondAttribute="leading" constant="38" id="7b1-Eh-nMp"/>
                                             <constraint firstItem="nbD-xL-v4E" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="874" id="8gW-xe-PE0"/>
+                                            <constraint firstItem="Puy-qS-xPE" firstAttribute="leading" relation="lessThanOrEqual" secondItem="QUj-7O-7tr" secondAttribute="trailing" constant="274" id="9bp-21-Ayg"/>
                                             <constraint firstAttribute="bottom" secondItem="Xyu-rL-wbg" secondAttribute="bottom" constant="671" id="9eC-yl-ah0"/>
                                             <constraint firstItem="g3W-PN-7Cc" firstAttribute="leading" relation="lessThanOrEqual" secondItem="47o-03-zks" secondAttribute="trailing" constant="106.5" id="9xM-7T-iaF"/>
                                             <constraint firstAttribute="trailing" secondItem="g3W-PN-7Cc" secondAttribute="trailing" constant="50" id="A1i-qC-A3s"/>
@@ -668,6 +679,7 @@
                                             <constraint firstAttribute="bottom" secondItem="dXH-1b-dSS" secondAttribute="bottom" constant="609" id="UvL-s2-XrY"/>
                                             <constraint firstItem="sKV-BT-PYe" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="359" id="V3W-aO-Bob"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="BOV-UE-jGT" secondAttribute="trailing" symbolic="YES" id="VLh-ma-iHN"/>
+                                            <constraint firstItem="wLx-W1-w86" firstAttribute="top" secondItem="Puy-qS-xPE" secondAttribute="bottom" constant="22" id="XH2-4q-mNi"/>
                                             <constraint firstItem="33Y-EZ-uF5" firstAttribute="leading" secondItem="eXn-hE-yNh" secondAttribute="leading" constant="38" id="XLN-2p-CaG"/>
                                             <constraint firstAttribute="bottom" secondItem="hOR-PG-tOr" secondAttribute="bottom" constant="318" id="XiV-1F-uqT"/>
                                             <constraint firstItem="zwr-rI-iGW" firstAttribute="leading" secondItem="eXn-hE-yNh" secondAttribute="leading" constant="33" id="XvK-IF-Mmt"/>
@@ -684,9 +696,9 @@
                                             <constraint firstItem="igg-yH-zBY" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="818" id="eCt-Y2-llu"/>
                                             <constraint firstItem="7gk-WF-k57" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="456" id="eb5-jm-wY2"/>
                                             <constraint firstAttribute="bottom" secondItem="BOV-UE-jGT" secondAttribute="bottom" constant="740" id="evC-La-wRu"/>
+                                            <constraint firstItem="Puy-qS-xPE" firstAttribute="top" secondItem="eXn-hE-yNh" secondAttribute="top" constant="48" id="fSz-fR-imr"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="rMP-wp-2Bt" secondAttribute="trailing" constant="20" symbolic="YES" id="fti-wC-2HE"/>
                                             <constraint firstAttribute="bottom" secondItem="ohW-rL-8p4" secondAttribute="bottom" constant="181" id="gCZ-sr-Bk5"/>
-                                            <constraint firstItem="QUj-7O-7tr" firstAttribute="leading" secondItem="eXn-hE-yNh" secondAttribute="leading" constant="20" symbolic="YES" id="gpU-tQ-fuK"/>
                                             <constraint firstItem="jc8-cf-diF" firstAttribute="top" secondItem="wLx-W1-w86" secondAttribute="bottom" constant="43" id="hgM-OB-HZl"/>
                                             <constraint firstAttribute="bottom" secondItem="hG5-vo-9eN" secondAttribute="bottom" constant="294" id="hi9-rg-bdA"/>
                                             <constraint firstItem="L8c-rk-J8u" firstAttribute="top" secondItem="g3W-PN-7Cc" secondAttribute="bottom" constant="1" id="ibu-4L-xeC"/>
@@ -708,6 +720,7 @@
                                             <constraint firstAttribute="trailing" secondItem="nKY-N8-agL" secondAttribute="trailing" constant="33" id="tLo-Bb-qI9"/>
                                             <constraint firstItem="sKV-BT-PYe" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="eXn-hE-yNh" secondAttribute="leading" constant="20" symbolic="YES" id="tNS-Hk-RSS"/>
                                             <constraint firstItem="47o-03-zks" firstAttribute="leading" secondItem="eXn-hE-yNh" secondAttribute="leading" constant="36" id="tTg-L9-0RO"/>
+                                            <constraint firstItem="QUj-7O-7tr" firstAttribute="leading" secondItem="eXn-hE-yNh" secondAttribute="leading" constant="22" id="u5U-Hq-PrA"/>
                                             <constraint firstAttribute="trailing" secondItem="ikk-pk-FgA" secondAttribute="trailing" constant="64" id="uiJ-Y5-f2r"/>
                                             <constraint firstItem="jc8-cf-diF" firstAttribute="leading" relation="lessThanOrEqual" secondItem="f6c-TH-Dmf" secondAttribute="trailing" constant="80" id="vNU-Su-WP4"/>
                                             <constraint firstItem="ikk-pk-FgA" firstAttribute="top" secondItem="7Fc-68-OgD" secondAttribute="bottom" constant="6" id="w9h-3Y-vEU"/>
@@ -1331,6 +1344,6 @@
         <image name="white" width="275" height="183"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="umS-NQ-av8"/>
+        <segue reference="YuR-cJ-K1t"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -3,7 +3,14 @@ import UIKit
 class HelpViewController: UIViewController {
 
    
-
+    @IBAction func Privacy(_ sender: Any) {
+        if let url = URL(string: "https://app.termly.io/document/privacy-policy/227859db-1da0-461c-a950-f951d3281caf") {
+            if UIApplication.shared.canOpenURL(url) {
+                UIApplication.shared.open(url, options: [:])
+            }
+        }
+    }
+    
     @IBAction func policebutton(_ sender: UIButton) {
         guard let numberString = URL(string: "tel://" + "9196842444") else {
             return
